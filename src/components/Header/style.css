@@ -1,0 +1,11 @@
+nav {
+    top       : 0;
+    width     : 100%;
+    text-align: right;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+
+a {
+    padding-right: 10px; 
+}
