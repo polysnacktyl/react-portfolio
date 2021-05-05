@@ -7,7 +7,7 @@ function Header() {
         <div className="header">
             <img src={image.default} alt="illustration"/>
         
-       <p> Please enjoy this fine sampling of works from my journey through U. Penn's full-stack coding boot camp alongside some of my favorite technical writing projects. 
+       <p> hello portfolio 
      </p>
      </div>
     );
