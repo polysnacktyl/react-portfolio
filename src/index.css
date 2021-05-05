@@ -1,5 +1,6 @@
 * {
   text-decoration: none;
+  background-color: #373737;
 }
 
 body {
@@ -10,15 +11,49 @@ body {
   -moz-osx-font-smoothing: grayscale;
   height                 : 100%;
   overflow               : hidden;
-  margin                 : 0;
 }
 
 html {
   text-align: center;
   color     : white;
+  /* min-height     : 87vh; */
+
+  font-size      : calc(2vmin);
+  color          : rgb(196, 196, 196);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+* {
+  font-family: 'Arimo', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #373737;
+}
+
+
+
+a {
+  color: #61dafb;
+  padding-left: 7px;
+}
+
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  color: black;
+}
+
+div {
+  padding-bottom:1%;
+}
+
+*hr {
+  padding: 0px;
+  margin: auto;
+  align-self: center;
 }

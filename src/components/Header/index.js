@@ -1,22 +1,16 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import "./style.css"
+let image = require("../../assets/images/image.jpeg");
 
 function Header() {
-  return (
-      <div>
-    <nav>
-      <NavLink exact activeClassName="active" to="/">
-        Home
-      </NavLink>
-      {/* <NavLink activeClassName="active" to="/users">
-        Users
-      </NavLink>
-      <NavLink activeClassName="active" to="/contact">
-        Contact
-      </NavLink> */}
-    </nav>
-    </div>
-  );
+    return (
+        <div className="header">
+            <img src={image.default} alt="illustration"/>
+        
+       <p> Please enjoy this fine sampling of works from my journey through U. Penn's full-stack coding boot camp alongside some of my favorite technical writing projects. 
+     </p>
+     </div>
+    );
 }
+
 export default Header;

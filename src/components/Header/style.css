@@ -1,11 +1,15 @@
-nav {
-    top       : 0;
-    width     : 100%;
-    text-align: right;
-    padding-top: 10px;
-    margin-right: 10px;
+img {
+    margin-top: 40px;
+    max-height: 300px;
+    border-radius:150px;
+    
 }
 
-a {
-    padding-right: 10px; 
-}
+p {
+
+    margin-left: 8%;
+    margin-right: 8%;
+    font-size:large;
+    /* justify-content:space-around; */
+
+} 

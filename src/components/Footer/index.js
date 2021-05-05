@@ -3,9 +3,10 @@ import "./style.css"
 
 function Footer() {
     return (
-        <div>
+        <footer>
+            <hr></hr>
             <p>footer</p>
-        </div>
+        </footer>
     );
 }
 
