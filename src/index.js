@@ -12,17 +12,15 @@ const routing = (
   <Router>
     <div>
       <Navbar />
-      
     </div>
     <div>
       <Switch>
         <Route exact path="/" component={Header} />
-        <Route path="/home" component={Header} />
-        <Route path="/work" component={Gallery} />
-        <Route path="/resume" component={pdfDoc} />
+        <Route path="react-portfolio/home" component={Header} />
+        <Route path="react-portfolio/work" component={Gallery} />
+        <Route path="react-portfolio/resume" component={pdfDoc} />
       </Switch>
       <Footer />
-
     </div>
   </Router>
 );
