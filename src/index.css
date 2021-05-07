@@ -1,3 +1,5 @@
+/* @import-normalize; */
+
 * {
   text-decoration: none;
   background-color: #373737;
@@ -10,14 +12,12 @@ body {
   -webkit-font-smoothing : antialiased;
   -moz-osx-font-smoothing: grayscale;
   height                 : 100%;
-  overflow               : hidden;
+  /* overflow               : hidden; */
 }
 
 html {
   text-align: center;
   color     : white;
-  /* min-height     : 87vh; */
-
   font-size      : calc(2vmin);
   color          : rgb(196, 196, 196);
 }
@@ -36,7 +36,6 @@ code {
 
 
 a {
-  color: #61dafb;
   padding-left: 7px;
 }
 
