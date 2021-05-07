@@ -1,22 +1,24 @@
-nav {
-    top       : 0;
-    width     : 99%;
-    text-align: right;
-    padding-top: 10px;
-    margin-right: 10px;
+.nav {
+    justify-content: right;
+    top            : 0;
+    width          : 99%;
+    text-align     : right;
+    padding-top    : 10px;
+    margin-right   : 10px;
 }
 
 a {
-    padding-right: 10px; 
-    font-weight: bolder;
-    font-size:large;
+    padding-right: 15px;
+    font-weight  : bolder;
+    font-size    : medium;
+    color: grey;
 }
 
-.navbar{
+.navbar {
     text-align: right;
 }
 
 hr {
-    margin-top: 2px;
-    min-width: 98%;
+    margin-top: 5px;
+    min-width : 98%;
 }

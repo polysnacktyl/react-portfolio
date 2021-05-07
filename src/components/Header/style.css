@@ -1,15 +1,16 @@
-img {
+.hello {
     margin-top: 40px;
-    max-height: 300px;
-    border-radius:150px;
-    
+    max-height: 250px;
+    border-radius:200px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
 }
 
-p {
 
+.howdy {
+    padding-top: 20px;
     margin-left: 8%;
     margin-right: 8%;
     font-size:large;
     /* justify-content:space-around; */
-
 } 

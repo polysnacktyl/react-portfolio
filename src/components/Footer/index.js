@@ -5,7 +5,7 @@ function Footer() {
     return (
         <footer>
             <hr></hr>
-            <p>footer</p>
+            <p>panda hamilton</p>
         </footer>
     );
 }

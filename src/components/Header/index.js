@@ -2,15 +2,37 @@ import React from "react";
 import "./style.css"
 let image = require("../../assets/images/image.jpeg");
 
-function Header() {
-    return (
-        <div className="header">
-            <img src={image.default} alt="illustration"/>
+class Home extends React.Component {
+    render() {
+        return (
+                  <div>
+            <img className="hello" src={image.default} alt="illustration"/>
         
-       <p> hello portfolio 
+       <p className="howdy"> hello portfolio 
      </p>
      </div>
-    );
+            
+        );
+    }
+
 }
 
-export default Header;
+export default Home;
+
+
+
+
+
+// function Header() {
+//     return (
+//         <div className="header">
+//             <img className="hello" src={image.default} alt="illustration"/>
+//        <p> hello portfolio 
+//      </p>
+//      </div>
+//     );
+// }
+// export default Header;
+// import '../../';
+// import React from 'react';
+// import logo from './logo.svg';
