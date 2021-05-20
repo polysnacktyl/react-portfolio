@@ -1,11 +1,8 @@
-.container {
-    padding-top: 100px;
 
-}
 
 img.img {
-    width  : 400px;
-    height : 300px;
+    width  : 375px;
+    height : 250px;
     border-radius : 25px;
     -webkit-filter: drop-shadow(5px 5px 5px #222);
     filter        : drop-shadow(7px 7px 7px #222);
@@ -42,16 +39,22 @@ h5 {
     color: grey;
     font-family: Arimo;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    grid-gap: .5rem;
-    
+    grid-gap: .5rem;   
 }
 
 .card {
     display: grid;
     flex-wrap: wrap;
     justify-items:baseline;
-    flex-wrap:wrap;     
     padding: 15px;
-
-
-}
+    width: 24em;
+    border-radius: 0.6em;
+    margin: 1em;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all ease 200ms;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }

@@ -4,7 +4,7 @@ import { Route, HashRouter as Router } from "react-router-dom";
 import Navbar from "./components/Navbar/index";
 import Footer from "./components/Footer/index";
 import Home from "./components/Header/index";
-import Projects from "./components/Card/projectCard";
+import Projects from "./components/Projects/CodingGallery/Gallery";
 import PDF from "./components/Projects/TechWriteGallery/viewPDF";
 
 function App() {

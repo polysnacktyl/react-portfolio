@@ -6,11 +6,9 @@
     filter: drop-shadow(5px 5px 5px #222);
 }
 
-
 .howdy {
     padding-top: 20px;
     margin-left: 8%;
     margin-right: 8%;
     font-size:large;
-    /* justify-content:space-around; */
 } 

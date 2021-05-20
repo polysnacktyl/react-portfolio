@@ -18,7 +18,6 @@ function Navbar() {
       <NavLink activeClassName="active" to="/docs">
         resumé
       </NavLink>
-    
       <a href="https://github.com/polysnacktyl">
         github</a>
 
