@@ -18,9 +18,10 @@ class Resume extends React.Component {
                     <p>Junior full stack web developer and technical writer with a penchant for creative problem-solving and efficiency. Seeking to collaborate with diverse teams on pro-social projects to build my skills, expand my perspective, and add value.</p>
 
                     <h2>TECHNICAL SKILLS</h2>
+                    <hr></hr>
                     <li><b>Languages</b></li> <p>JavaScript, NodeJS, SQL, NoSQL, MongoDB, HTML, CSS</p>
                     <li><b>Tools</b></li> <p>Express, MongoDB, Mongoose, APIs, Bootstrap, React</p>
-                    <li><b>Applications</b></li> <p>GitHub, Heroku,</p>
+                    <li><b>Applications</b></li> <p>GitHub, Heroku </p>
                     <li><b>Technical Writing</b></li> <p>manuals, reports, science and technology, technical editing</p>
 
                     <h2>PROJECTS</h2>

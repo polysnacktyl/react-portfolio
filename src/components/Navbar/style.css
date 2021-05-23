@@ -10,7 +10,7 @@
 a {
     padding-right: 15px;
     font-weight  : bold;
-    font-size    : medium;
+    
    
 }
 
@@ -27,4 +27,24 @@ hr {
 .links {
     padding-bottom: 10px;
     padding-top: 10px;
+}
+
+@media screen and (max-width: 568px) {
+    div.navbar{
+        text-align: center;
+    } 
+
+    .row {
+        display        : flex;
+        justify-content: space-evenly;
+    }
+    .col {
+        display: flex;
+    }
+    .card {
+        width        : 600px;
+        margin       : 15px;
+        border-radius: 10px;
+    
+    }
 }

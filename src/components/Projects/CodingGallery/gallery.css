@@ -1,28 +1,20 @@
 img.img {
-    display: block;
-    width         : 16rem;
-    height        : 10rem;
+    display       : block;
+    width         : 20rem;
+    height        : 12rem;
     border-radius : 25px;
     -webkit-filter: drop-shadow(5px 5px 5px #111);
     filter        : drop-shadow(7px 7px 7px #111);
-    margin-bottom: 10px;
-}
-
-.column {
-    display: flex;
-    width  : 30rem;
-    height : 20rem;
-    padding: 20px;
-    margin : 10px;
-}
-
-.row {
-    display: flex;
+    margin-bottom : 0;
 }
 
 p {
     padding: 0;
     margin : 0;
+}
+
+h4 {
+    justify-self: center;
 }
 
 h5 {
@@ -44,11 +36,7 @@ a:hover {
     transition: all 550ms ease-in-out;
 }
 
-div.card-header {
-    display     : flex;
-    text-align  : center;
-    
-}
+
 
 .card-deck {
     display              : flex;
@@ -60,25 +48,30 @@ div.card-header {
     font-family          : Arimo;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-gap             : .5rem;
+    text-align           : center;
+}
+
+div.card-body {
+    justify-content: space-around;
 }
 
 div.card {
-    text-align: center;
-    display      : grid;
-    flex-wrap    : wrap;
-    justify-items: baseline;
-    justify-content: space-around;
-    width        : 24em;
-    border-radius: 0.6em;
-    margin       : 1em;
-    transition   : all ease 200ms;
+    text-align     : center;
+    display        : grid;
+    flex-wrap      : wrap;
+    justify-items  : baseline;
+    justify-content: space-evenly;
+    width          : 24em;
+    border-radius  : 0.6em;
+    margin         : 1em;
+    transition     : all ease 200ms;
 }
 
 html,
 body {
     height               : 2000px;
-    background: rgb(34,132,195);
-    background: linear-gradient(14deg, rgba(34,132,195,1) 0%, rgba(11,199,184,1) 67%, rgba(0,232,178,1) 100%);
+    background           : rgb(34, 132, 195);
+    background           : linear-gradient(14deg, rgba(34, 132, 195, 1) 0%, rgba(11, 199, 184, 1) 67%, rgba(0, 232, 178, 1) 100%);
     height               : 100%;
     overflow             : hidden;
     background-attachment: fixed !important;
@@ -96,3 +89,46 @@ div.container {
     right   : 0;
     overflow: auto;
 }
+
+@media only screen and (max-width: 1050px) {
+    img.img {
+        display       : flex;
+        display       : block;
+        width         : 40rem;
+        height        : 25rem;
+        border-radius : 25px;
+        -webkit-filter: drop-shadow(5px 5px 5px #111);
+        filter        : drop-shadow(7px 7px 7px #111);
+        margin-bottom : 10px;
+    }
+
+    card-deck {
+        display              : flex;
+        flex-wrap            : wrap;
+        justify-content      : space-around;
+        background-color     : transparent;
+        border               : none;
+        color                : white;
+        font-family          : Arimo;
+        width                : 100%;
+        grid-template-columns: repeat(auto-fit);
+        grid-gap             : 0rem;
+    }
+
+    div.card {
+        width          : 100%;
+        justify-content: space-around;
+    }
+
+    h5 {
+        font-size: xx-small;
+        padding  : 0;
+    }
+
+    h5:hover {
+        color     : black;
+        transform : scale(1.07);
+        transition: all 550ms ease-in-out;
+    }
+}
+

@@ -1,17 +1,9 @@
-hr {
-    width: 97%;
-}
-
 ul li, ul li a, ul li p {
     display        : inline;
     list-style-type: none;
     padding-left: 17px;
     padding-right: 17px;
     font-weight:normal;
-}
-
-.far {
-    font-weight:500;
 }
 
 .footer--pin ul {
