@@ -14,5 +14,8 @@ ul li, ul li a, ul li p {
     font-weight:500;
 }
 
-
+.footer--pin ul {
+    color: white;
+    margin-top: 10px;
+}
 

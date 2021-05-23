@@ -6,6 +6,7 @@ import Footer from "./components/Footer/index";
 import Home from "./components/Header/index";
 import Projects from "./components/Projects/CodingGallery/Gallery";
 import PDF from "./components/Projects/TechWriteGallery/viewPDF";
+import Resume from "./components/Docs/Resume/Resume";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <Route path={"/home"}><Home /></Route>
       <Route exact path="/work"><Projects /></Route>
       <Route path="/docs"><PDF /></Route>
-      <Route path="/resume" ><PDF /></Route>
+      <Route path="/resume" ><Resume /></Route>
       <Footer />
     </Router>
 

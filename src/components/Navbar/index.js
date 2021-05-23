@@ -5,6 +5,7 @@ import "./style.css"
 function Navbar() {
   return (
     <div className="navbar">
+      <div className="links">
 
       <NavLink exact activeClassName="active" to="/">
         home
@@ -15,13 +16,13 @@ function Navbar() {
       <NavLink activeClassName="active" to="/docs">
         tech writing
       </NavLink>
-      <NavLink activeClassName="active" to="/docs">
+      <NavLink activeClassName="active" to="/resume">
         resumé
       </NavLink>
       <a href="https://github.com/polysnacktyl">
         github</a>
 
-
+        </div>
       <hr></hr>
     </div>
 

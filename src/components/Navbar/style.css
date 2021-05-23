@@ -3,7 +3,6 @@
     top            : 0;
     width          : 99%;
     text-align     : right;
-    padding-top    : 10px;
     margin-right   : 10px;
     background-color: transparent;
 }
@@ -15,11 +14,17 @@ a {
    
 }
 
-.navbar {
+div.navbar {
     text-align: right;
+    padding-bottom: 10px;
 }
 
 hr {
     margin-top: 5px;
     min-width : 98%;
+}
+
+.links {
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
