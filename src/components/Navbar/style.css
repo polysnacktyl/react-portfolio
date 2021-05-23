@@ -5,13 +5,14 @@
     text-align     : right;
     padding-top    : 10px;
     margin-right   : 10px;
+    background-color: transparent;
 }
 
 a {
     padding-right: 15px;
-    font-weight  : bolder;
+    font-weight  : bold;
     font-size    : medium;
-    color: grey;
+   
 }
 
 .navbar {

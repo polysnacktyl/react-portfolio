@@ -4,7 +4,7 @@ let babysittr = require("../../../images/babysittr.png")
 let fungID = require("../../../images/fungID.png")
 let profileGen = require("../../../images/profileGen.png")
 let pwGen = require("../../../images/pwGen.png")
-let python = require("../../../images/python.png")
+// let python = require("../../../images/python.png")
 let neighborly = require("../../../images/neighborly.png")
 
 const CardData = [
@@ -54,7 +54,7 @@ const CardData = [
 function Projects() {
     return (
         <body>
-            <div className="container">
+            <div className="content-container">
                 <div className="card-deck">
                     {CardData.map((item) => {
                         return (

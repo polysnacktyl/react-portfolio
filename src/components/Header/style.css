@@ -1,14 +1,18 @@
 .hello {
-    margin-top: 40px;
-    max-height: 250px;
+    margin-top: 150px;
+    max-height: 300px;
     border-radius:200px;
     -webkit-filter: drop-shadow(5px 5px 5px #222);
     filter: drop-shadow(5px 5px 5px #222);
 }
 
 .howdy {
-    padding-top: 20px;
+    padding-top: 50px;
     margin-left: 8%;
     margin-right: 8%;
     font-size:large;
+} 
+
+* {
+    background-color: transparent;
 } 
