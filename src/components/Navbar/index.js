@@ -19,7 +19,7 @@ function Navbar() {
       <NavLink activeClassName="active" to="/resume">
         resumé
       </NavLink>
-      <a href="https://github.com/polysnacktyl">
+      <a href="https://github.com/polysnacktyl" rel="noreferrer" target="_blank">
         github</a>
 
         </div>
