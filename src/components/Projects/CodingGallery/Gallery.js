@@ -28,8 +28,7 @@ const CardData = [
         image: profileGen,
         alt: "screenshot",
         title: "node.js profile generator",
-        desc: "",
-        urlApp: "",
+        urlApp: "return null",
         urlRepo: "https://github.com/polysnacktyl/team-profile-generator"
     },
     {
@@ -49,15 +48,7 @@ const CardData = [
         urlApp: "https://polysnacktyl.github.io/project-1/",
         urlRepo: "https://github.com/polysnacktyl/project-1/tree/amanda"
 
-    },
-    {
-        image: python,
-        alt: "screenshot",
-        title: "python script guide ",
-        desc: "a first-timer's guide to compiling a script that helps massage CSV data between documents",
-        urlApp: "",
-        urlRepo: ""
-    },
+    }
 ]
 
 function Projects() {

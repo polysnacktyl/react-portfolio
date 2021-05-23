@@ -1,17 +1,20 @@
 
 
 img.img {
-    width  : 375px;
-    height : 250px;
+    width  : 25rem;
+    height : 15rem;
     border-radius : 25px;
     -webkit-filter: drop-shadow(5px 5px 5px #222);
     filter        : drop-shadow(7px 7px 7px #222);
 }
+img.img:hover {
+    transform: scale(1.02);
+  }
 
 .column {
     display: flex;
-    width  : 300px;
-    height : 200px;
+    width  : 30rem;
+    height : 20rem;
     padding: 20px;
     margin : 10px;
 }
@@ -26,6 +29,7 @@ p {
 }
 
 h5 {
+    display: inline-flex;
     padding: 10px;
     margin : 0;
 }
@@ -50,11 +54,6 @@ h5 {
     width: 24em;
     border-radius: 0.6em;
     margin: 1em;
-    overflow: hidden;
-    cursor: pointer;
     transition: all ease 200ms;
   }
   
-  .card:hover {
-    transform: scale(1.02);
-  }
