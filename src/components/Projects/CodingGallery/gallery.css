@@ -47,7 +47,7 @@ a:hover {
     color                : white;
     font-family          : Arimo;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    grid-gap             : .5rem;
+    /* grid-gap             : .5rem; */
     text-align           : center;
 }
 
@@ -63,13 +63,13 @@ div.card {
     justify-content: space-evenly;
     width          : 24em;
     border-radius  : 0.6em;
-    margin         : 1em;
+    margin         : .7em;
     transition     : all ease 200ms;
 }
 
 html,
 body {
-    height               : 2000px;
+    height               : 1900px;
     background           : rgb(34, 132, 195);
     background           : linear-gradient(14deg, rgba(34, 132, 195, 1) 0%, rgba(11, 199, 184, 1) 67%, rgba(0, 232, 178, 1) 100%);
     height               : 100%;
