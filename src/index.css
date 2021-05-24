@@ -1,11 +1,10 @@
 * {
   text-decoration: none;
   font-family    : 'Montserrat', sans-serif;
-
 }
 
 .content-container {
-  min-height: calc(100vh - 200px);
+  min-height: calc(100vh - 130px);
 }
 
 .footer--pin {
@@ -37,8 +36,6 @@ code {
     monospace;
 }
 
-
-
 a {
   padding-left: 7px;
 }
@@ -55,4 +52,10 @@ a:hover {
   padding   : 0px;
   margin    : auto;
   align-self: center;
+}
+
+@media screen and (max-width: 568px) {
+  .content-container {
+    min-height: calc(100vh - 330px);
+  }
 }

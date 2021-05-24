@@ -1,24 +1,38 @@
 .hello {
-    margin-top: 100px;
-    max-height: 400px;
-    border-radius:200px;
+    margin-top    : 100px;
+    max-width     : 400px;
+    border-radius : 200px;
     -webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(5px 5px 5px #222);
+    filter        : drop-shadow(5px 5px 5px #222);
 }
 
 .howdy {
-    padding-top: 50px;
-    margin-left: 8%;
+    padding-top : 50px;
+    margin-left : 8%;
     margin-right: 8%;
-    font-size:large;
-} 
+    font-size   : 1.7rem;
+}
 
 * {
     background-color: transparent;
-} 
+}
 
 .header {
-    display: flex;
+    display   : flex;
     text-align: center;
 }
 
+
+@media (max-width: 480px) {
+    .hello {
+        max-width : 60%;
+        margin-top: 10px;
+    }
+
+    .howdy {
+        padding-top : 50px;
+        margin-left : 8%;
+        margin-right: 8%;
+        font-size   : 3rem;
+    }
+}

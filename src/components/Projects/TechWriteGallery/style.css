@@ -1,9 +1,14 @@
-#holdPlease {
-    margin-top: 150px;
+
+
+.pending {
+    background    : rgba(235, 235, 235);
+    border-radius: 25px;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    margin: 7%;
+    padding: 2%;
+    font-size: 1.2rem;
+    -webkit-filter: drop-shadow(5px 5px 5px #111);
+    filter        : drop-shadow(7px 7px 7px #111);
 }
-
-
-div.content-container {
-    padding-top: 3.5rem;
-}
-

@@ -1,13 +1,40 @@
-ul li, ul li a, ul li p {
-    display        : inline;
+ul li,
+ul li a,
+ul li p {
+    display        : flex;
+    flex-direction : row;
+    flex-wrap      : wrap;
+    justify-content: space-around;
+    justify-items  : center;
     list-style-type: none;
-    padding-left: 17px;
-    padding-right: 17px;
-    font-weight:normal;
+    padding-left   : 17px;
+    padding-right  : 17px;
+    font-weight    : normal;
+}
+
+.fas {
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 .footer--pin ul {
-    color: white;
+    display        : flex;
+    flex-direction : row;
+    flex-wrap      : wrap;
+    justify-content: center;
+    justify-items  : center;
+    color     : white;
     margin-top: 10px;
 }
 
+@media (max-width: 568px) {
+    ul {
+        display        : flex;
+        flex-direction : row;
+        flex-wrap      : wrap;
+        justify-items  : center;
+        justify-content: center;
+        font-size      : 2em;
+    }
+
+}

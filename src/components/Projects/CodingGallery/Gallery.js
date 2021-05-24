@@ -27,14 +27,14 @@ const CardData = [
     {
         image: profileGen,
         alt: "screenshot",
-        title: "node.js profile generator",
+        title: "HTML Generator",
         urlApp: "return null",
         urlRepo: "https://github.com/polysnacktyl/team-profile-generator"
     },
     {
         image: pwGen,
         alt: "screenshot",
-        title: "password generator",
+        title: "Password Generator",
         desc: "a javascript password generator",
         urlApp: "https://polysnacktyl.github.io/js-password-generator/",
         urlRepo: "https://github.com/polysnacktyl/js-password-generator"

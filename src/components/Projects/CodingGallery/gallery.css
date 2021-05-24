@@ -5,7 +5,12 @@ img.img {
     border-radius : 25px;
     -webkit-filter: drop-shadow(5px 5px 5px #111);
     filter        : drop-shadow(7px 7px 7px #111);
-    margin-bottom : 0;
+    margin-bottom : 10px;
+}
+
+ul {
+    display: flex;
+    text-align: center;
 }
 
 p {
@@ -15,6 +20,8 @@ p {
 
 h4 {
     justify-self: center;
+    color: white !important;
+    padding-bottom: 5px;
 }
 
 h5 {
@@ -23,6 +30,7 @@ h5 {
     padding   : 10px;
     margin    : 0;
     margin-top: 10px;
+    color: white;
 }
 
 h5:hover {
@@ -36,34 +44,45 @@ a:hover {
     transition: all 550ms ease-in-out;
 }
 
-
+div.card-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+}
 
 .card-deck {
-    display              : flex;
-    flex-wrap            : wrap;
-    justify-content      : space-evenly;
-    background-color     : transparent;
-    border               : none;
-    color                : white;
-    font-family          : Arimo;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    /* grid-gap             : .5rem; */
-    text-align           : center;
+    display                 : flex;
+    flex-wrap               : wrap;
+    justify-content         : space-evenly;
+    background-color        : transparent;
+    border                  : none;
+    color                   : white;
+    font-family             : Arimo;
+    grid-template-columns   : repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap             : .5rem;
+    text-align              : center;
 }
 
 div.card-body {
-    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
 }
 
 div.card {
     text-align     : center;
-    display        : grid;
+    display        : flex;
+    flex-wrap      : wrap;
+    flex-direction : column;
     flex-wrap      : wrap;
     justify-items  : baseline;
     justify-content: space-evenly;
     width          : 24em;
     border-radius  : 0.6em;
-    margin         : .7em;
+    margin         : em;
     transition     : all ease 200ms;
 }
 
@@ -81,13 +100,14 @@ body {
     overflow             : auto;
 }
 
-div.container {
+div.content-container {
     position: relative;
     top     : 0;
     bottom  : 0;
     left    : 0;
     right   : 0;
     overflow: auto;
+    justify-items: space-around;
 }
 
 @media only screen and (max-width: 1050px) {
@@ -102,6 +122,8 @@ div.container {
         margin-bottom : 10px;
     }
 
+   
+
     card-deck {
         display              : flex;
         flex-wrap            : wrap;
@@ -113,6 +135,7 @@ div.container {
         width                : 100%;
         grid-template-columns: repeat(auto-fit);
         grid-gap             : 0rem;
+        margin-top: 0;
     }
 
     div.card {
@@ -120,8 +143,13 @@ div.container {
         justify-content: space-around;
     }
 
+    h4 {
+        font-size: large;
+    }
+
     h5 {
-        font-size: xx-small;
+        display: flex;
+        font-size: medium;
         padding  : 0;
     }
 
@@ -131,4 +159,3 @@ div.container {
         transition: all 550ms ease-in-out;
     }
 }
-

@@ -8,8 +8,12 @@ div.page {
     text-align    : left;
     color         : black;
     padding       : 25px;
-    
     margin-top: 75px;
+}
+
+#contactMe {
+    display: flex;
+    justify-content: center;
 }
 
 hr {
