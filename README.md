@@ -1,2 +1,1 @@
-[Create React App dos](https://facebook.github.io/create-react-app/docs/getting-started).
-
+[see the deployed site on github pages](https://polysnacktyl.github.io/react-portfolio/#/)
