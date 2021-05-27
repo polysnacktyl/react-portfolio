@@ -9,12 +9,13 @@ ul li p {
     list-style-type: none;
     padding-left   : 17px;
     padding-right  : 17px;
+    font-size      : 1.3rem;
     font-weight    : normal;
-    align-items: flex-end;
+    align-items    : flex-end;
 }
 
 .fas {
-    padding-left: 3px;
+    padding-left : 3px;
     padding-right: 3px;
 }
 
@@ -24,8 +25,8 @@ ul li p {
     flex-wrap      : wrap;
     justify-content: center;
     justify-items  : center;
-    color     : white;
-    margin-top: 10px;
+    color          : white;
+    margin-top     : 2%;
 }
 
 @media (max-width: 568px) {
@@ -34,19 +35,13 @@ ul li p {
         flex-direction : row;
         flex-wrap      : wrap;
         justify-items  : center;
-        justify-content: center;
-        font-size      : 2em;
+        justify-content: space-around;
+        font-size: 2rem;
+        width: 60%;
+        margin-left: 20%;
+        margin-right:20%;
+        
+        
     }
 
-}
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-    ul {
-        display        : flex;
-        flex-direction : row;
-        flex-wrap      : wrap;
-        justify-items  : center;
-        justify-content: center;
-        font-size      : 2em;
-    }
 }

@@ -1,93 +1,39 @@
 .hello {
-    margin-top    : 50px;
-    width         : 35%;
+    margin-top    : 5%;
     border-radius : 100%;
+    max-width: 70%;
+    max-height: 400px;
     -webkit-filter: drop-shadow(5px 5px 5px #222);
     filter        : drop-shadow(5px 5px 5px #222);
     margin-bottom : 25px;
 }
 
 .intro {
-    font-weight : light;
-    font-size   : medium;
-    width       : 80%;
-    margin-left : 10%;
-    margin-right: 10%;
+    justify-items   : center;
+    font-weight     : light;
+    width           : 100%;
+    height: auto;
 }
 
 h3 {
-    font-weight  : normal;
-    font-size    : 3rem;
-    color        : black;
-    margin-top   : 45px;
-    margin-bottom: 15px;
+    font-weight: normal;
+    font-size  : 3rem;
+    color      : black;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
-.howdy {
-    padding-top : 30px;
-    margin-left : 8%;
-    margin-right: 8%;
-    font-size   : 1.5rem;
-}
 
 * {
     background-color: transparent;
 }
 
-.header {
-    display   : flex;
-    text-align: center;
-}
+@media screen and (max-width: 568px) {
 
 
-    @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-
-    .hello {
-        width: 80%;
-    }
 
 }
-
-
-/* Portrait */
-@media (max-width: 400px) {
-
-    .intro {
-        width: 80%;
-
-    }
-
-    p {
-        font-size: 1.7rem;
-    }
-
-    h3 {
-        margin-top: 1%;
-        font-size: 3rem;
-    }
-
-    .hello {
-        width        : 80%;
-        margin-top   : 15%;
-        margin-bottom: 19%;
-        margin-left  : 10%;
-        margin-right : 10%;
-    }
-
-    .howdy {
-        padding-top : 20px;
-        margin-left : 8%;
-        margin-right: 8%;
-        font-size   : 3rem;
-    }
-
-}
-

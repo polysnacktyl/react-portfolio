@@ -8,7 +8,7 @@ class Home extends React.Component {
             <div className="content-container">
                 <div className="intro">
                     <h3>Amanda Hamilton</h3>
-                    <p>web development & technical writing</p>
+                    <p>web development & tech writing</p>
                     <img className="hello" src={image.default} alt="illustration" />
 
 
