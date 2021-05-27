@@ -1,33 +1,37 @@
 .hello {
     margin-top    : 50px;
-    max-width     : 400px;
-    border-radius : 200px;
+    width         : 35%;
+    border-radius : 100%;
     -webkit-filter: drop-shadow(5px 5px 5px #222);
     filter        : drop-shadow(5px 5px 5px #222);
-    margin-bottom: 25px;
+    margin-bottom : 25px;
 }
 
 .intro {
-    font-weight: light;
-    font-size: medium;
-    width: 80%;
-    margin-left: 10%;
+    font-weight : light;
+    font-size   : medium;
+    width       : 80%;
+    margin-left : 10%;
     margin-right: 10%;
 }
 
-h3 { 
-    font-weight: normal;
-    font-size: xx-large;
-    color: black;
-    margin-top: 45px;
+h3 {
+    font-weight  : normal;
+    font-size    : 3rem;
+    color        : black;
+    margin-top   : 45px;
     margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.2rem;
 }
 
 .howdy {
     padding-top : 30px;
     margin-left : 8%;
     margin-right: 8%;
-    font-size   : 1.7rem;
+    font-size   : 1.5rem;
 }
 
 * {
@@ -40,32 +44,42 @@ h3 {
 }
 
 
+    @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    .hello {
+        width: 80%;
+    }
+
+}
+
+
 /* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-    
-    .intro{
+@media (max-width: 400px) {
+
+    .intro {
         width: 80%;
-        
+
     }
 
     p {
-        font-size: small;
+        font-size: 1.7rem;
     }
 
     h3 {
-        font-size: large;
+        margin-top: 1%;
+        font-size: 3rem;
     }
 
     .hello {
-        max-width : 80%;
-        margin-top: 25%;
-        margin-bottom: 35%;
-        margin-left: 10%;
-        margin-right: 10%;
+        width        : 80%;
+        margin-top   : 15%;
+        margin-bottom: 19%;
+        margin-left  : 10%;
+        margin-right : 10%;
     }
 
     .howdy {
@@ -76,43 +90,4 @@ h3 {
     }
 
 }
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-
-    .intro{
-        width: 80%;
-        
-    }
-
-    p {
-        font-size: small;
-    }
-
-    h3 {
-        font-size: large;
-    }
-
-    .hello {
-        max-width : 50%;
-        /* margin-top: 25%; */
-        margin-bottom: 35%;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
-    .howdy {
-        padding-top : 20px;
-        margin-left : 8%;
-        margin-right: 8%;
-        font-size   : 3rem;
-    }
-
-}
-
-
 

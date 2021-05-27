@@ -29,6 +29,7 @@ hr {
 .links {
     padding-bottom: 10px;
     padding-top   : 10px;
+    font-size      : 1.3rem;
 }
 
 @media screen and (max-width: 568px) {
@@ -39,7 +40,6 @@ hr {
         justify-content: center;
         align-content  : space-around;
         align-items    : center;
-        font-size      : 1.5rem;
         max-width      : 75%;
         font-size      : 2rem;
         padding-top    : 10px;
