@@ -10,6 +10,7 @@ ul li p {
     padding-left   : 17px;
     padding-right  : 17px;
     font-weight    : normal;
+    align-items: flex-end;
 }
 
 .fas {
@@ -37,4 +38,15 @@ ul li p {
         font-size      : 2em;
     }
 
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+    ul {
+        display        : flex;
+        flex-direction : row;
+        flex-wrap      : wrap;
+        justify-items  : center;
+        justify-content: center;
+        font-size      : 2em;
+    }
 }

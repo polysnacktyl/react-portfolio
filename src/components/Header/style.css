@@ -10,6 +10,9 @@
 .intro {
     font-weight: light;
     font-size: medium;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 h3 { 
@@ -37,16 +40,79 @@ h3 {
 }
 
 
-@media (max-width: 480px) {
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    
+    .intro{
+        width: 80%;
+        
+    }
+
+    p {
+        font-size: small;
+    }
+
+    h3 {
+        font-size: large;
+    }
+
     .hello {
-        max-width : 60%;
-        margin-top: 10px;
+        max-width : 80%;
+        margin-top: 25%;
+        margin-bottom: 35%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .howdy {
-        padding-top : 50px;
+        padding-top : 20px;
         margin-left : 8%;
         margin-right: 8%;
         font-size   : 3rem;
     }
+
 }
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+    .intro{
+        width: 80%;
+        
+    }
+
+    p {
+        font-size: small;
+    }
+
+    h3 {
+        font-size: large;
+    }
+
+    .hello {
+        max-width : 50%;
+        /* margin-top: 25%; */
+        margin-bottom: 35%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .howdy {
+        padding-top : 20px;
+        margin-left : 8%;
+        margin-right: 8%;
+        font-size   : 3rem;
+    }
+
+}
+
+
+

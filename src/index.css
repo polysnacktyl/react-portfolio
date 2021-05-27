@@ -54,8 +54,8 @@ a:hover {
   align-self: center;
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 800px) {
   .content-container {
-    min-height: calc(100vh - 330px);
+    min-height: calc(100vh - 380px);
   }
 }

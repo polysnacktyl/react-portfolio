@@ -46,26 +46,26 @@ class Resume extends React.Component {
                     <h2>EXPERIENCE</h2>
                     <hr></hr>
 
-                    <li><b>Internship, Brookhurst Jr. High AUHSD</b>(05/20)</li>
+                    <li><b>Internship, Brookhurst Jr. High AUHSD (05/20)</b></li>
                     <p>Technical Writing, Editing, Revision</p>
-                    <li><b>Massage Therapy</b>(2015 - 2020)</li>
+                    <li><b>Massage Therapy (2015 - 2020)</b></li>
                     <p>self-employed</p>
 
                     <h2>EDUCATION</h2>
                     <hr></hr>
 
-                    <li><b>University of Pennsylvania, LPS - Coding Boot Camp</b> (05/21)</li>
+                    <li><b>University of Pennsylvania, LPS - Coding Boot Camp (05/21)</b></li>
                     <p>Certificate, Full Stack Development</p>
 
 
-                    <li><b>California State University, Long Beach</b>(05/20)</li>
+                    <li><b>California State University, Long Beach(05/20)</b></li>
                     <p>Bachelor of Arts, English, Creative Writing</p>
                     <p>Certificate, Technical and Professional Writing</p>
-                    <li><b>Long Beach City College </b>(05/17)</li>
+                    <li><b>Long Beach City College (05/17)</b></li>
                     <p>Associate of Arts, English</p>
                     <p>Jacaranda Essay Contest, Expository Category Winner (05/17)</p>
 
-                    <li><b>Career Networks Institute</b>(12/09)</li>
+                    <li><b>Career Networks Institute (12/09)</b></li>
                     <p>Certificate, Massage Therapy and Bodywork</p>
                 </div>
                 <div id="dlPDF">
