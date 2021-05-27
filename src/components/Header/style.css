@@ -1,13 +1,27 @@
 .hello {
-    margin-top    : 100px;
+    margin-top    : 50px;
     max-width     : 400px;
     border-radius : 200px;
     -webkit-filter: drop-shadow(5px 5px 5px #222);
     filter        : drop-shadow(5px 5px 5px #222);
+    margin-bottom: 25px;
+}
+
+.intro {
+    font-weight: light;
+    font-size: medium;
+}
+
+h3 { 
+    font-weight: normal;
+    font-size: xx-large;
+    color: black;
+    margin-top: 45px;
+    margin-bottom: 15px;
 }
 
 .howdy {
-    padding-top : 50px;
+    padding-top : 30px;
     margin-left : 8%;
     margin-right: 8%;
     font-size   : 1.7rem;
