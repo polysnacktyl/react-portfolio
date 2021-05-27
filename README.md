@@ -23,6 +23,12 @@ Prop drilling has been an ongoing challenge, and my top priority in terms of fun
 
 ## [see the deployed site on github pages](https://polysnacktyl.github.io/react-portfolio/#/)
 
+landing page | resumé view
+------------ | ------------- 
+![image](https://raw.githubusercontent.com/polysnacktyl/react-portfolio/main/src/assets/images/1.png) |![image](https://raw.githubusercontent.com/polysnacktyl/react-portfolio/main/src/assets/images/2.png)
 
 
+mobile landing | mobile work | mobile resumé
+------------ | ------------- | ------------- 
+![image](https://raw.githubusercontent.com/polysnacktyl/react-portfolio/main/src/assets/images/mobile-1.png) | ![image](https://raw.githubusercontent.com/polysnacktyl/react-portfolio/main/src/assets/images/mobile-2.png) | ![image](https://raw.githubusercontent.com/polysnacktyl/react-portfolio/main/src/assets/images/mobile-3.png) 
 
