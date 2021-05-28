@@ -110,16 +110,22 @@ div.content-container {
     justify-items: space-around;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
     img.img {
         display       : flex;
-        display       : block;
         width         : 40rem;
         height        : 25rem;
         border-radius : 25px;
         -webkit-filter: drop-shadow(5px 5px 5px #111);
         filter        : drop-shadow(7px 7px 7px #111);
         margin-bottom : 10px;
+    }
+
+    div.card-body {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+
     }
 
 
@@ -140,7 +146,7 @@ div.content-container {
 
     div.card {
         width          : 100%;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     h4 {
@@ -149,7 +155,7 @@ div.content-container {
 
     h5 {
         display  : flex;
-        font-size: smaller;
+        font-size: 1.7rem;
         padding  : 0;
     }
 
