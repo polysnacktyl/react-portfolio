@@ -17,7 +17,6 @@ class Gallery extends Component {
                     image: neighborly,
                     alt: "screenshot",
                     title: "Neighborly",
-                    desc: "it thing",
                     urlApp: "https://infinite-forest-58133.herokuapp.com/",
                     urlRepo: "https://github.com/polysnacktyl/project3/tree/amanda"
                 },
@@ -55,7 +54,7 @@ class Gallery extends Component {
                     title: "babysittr",
                     desc: "with the skills we had at the time, we built what we could of an idea for helping parents and sitters communicate the minutia of childcare",
                     urlApp: "https://polysnacktyl.github.io/project-1/",
-                    urlRepo: "https://github.com/polysnacktyl/project-1/tree/amanda",
+                    urlRepo: "https://github.com/polysnacktyl/babysittr/tree/main",
                     description: "",
                     tools: "",
                     challenges: ""
