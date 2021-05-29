@@ -7,7 +7,6 @@ const Cards = props => (
 <div className="card-deck">
         {props.CardData.map(item => {
             return(
-                
             <div key={item.id} className="card">
                 <div className="card-header"><h4>{item.title}</h4></div>
                 <div className="card-body">
