@@ -69,7 +69,7 @@ class Resume extends React.Component {
                     <p>Certificate, Massage Therapy and Bodywork</p>
                 </div>
                 <div id="dlPDF">
-                <a href="https://drive.google.com/uc?export=download&id=1J87vNLxhQFAywZKlNeBxkl-h9KHhxOsd" download><i class="fas fa-save"> </i> download pdf <i class="fas fa-save"> </i></a>
+                <a href="https://drive.google.com/uc?export=download&id=1J87vNLxhQFAywZKlNeBxkl-h9KHhxOsd" download><i className="fas fa-save"> </i> download pdf <i className="fas fa-save"> </i></a>
                 </div>
 
             </div>
