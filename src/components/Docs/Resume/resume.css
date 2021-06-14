@@ -1,4 +1,13 @@
-div.page {
+content-container {
+    display       : flex !important;
+    flex-direction: column;
+    flex-wrap     : wrap;
+}
+
+.page {
+    display       : flex !important;
+    flex-direction: column;
+    flex-wrap     : wrap;
     border-radius : 15px;
     margin        : 10px auto;
     width         : 77%;
@@ -8,63 +17,86 @@ div.page {
     text-align    : left;
     color         : black;
     padding       : 25px;
-    margin-top: 75px;
+    margin-top    : 75px;
 }
 
-#contactMe {
-    display: flex;
+.contactMe,
+.contactMe a {
+    display        : flex;
+    flex-wrap      : wrap;
+    color          : black;
     justify-content: center;
+    font-size      : .9rem !important;
+    padding: 0;
+    
+
+}
+
+.contactMe li {
+    display: flex;
+    font-size: .9rem;
+
+
+}
+
+.contactMe a:hover {
+    color: grey;
 }
 
 hr {
-    padding: 0; 
-    margin: 0;
-   justify-self: center;
+    padding     : 0;
+    margin      : 0;
+    justify-self: center;
 }
 
 h1 {
-    color     : black;
-    text-align: center;
+    color        : black;
+    text-align   : center;
     margin-bottom: 0;
 }
 
 h2 {
-    color     : black;
-    text-align: center;
+    color        : black;
+    text-align   : center;
     margin-bottom: 0;
 }
 
 h4 {
-    color     : black;
-    text-align: left;
+    color        : black;
+    text-align   : left;
     margin-bottom: 0;
 }
 
-ul {
-    text-align: center;
+.contactMe ul {
+    text-align          : center;
     padding-inline-start: 0;
-    margin-top: 0px;
+    margin-top          : 0px;
 }
 
 li {
-    margin-top: 10px;
+    margin-top     : 10px;
     text-decoration: none;
     list-style-type: none;
-    
+
 }
 
 p {
-    margin-left: 15px;
-    color  : black;
+    margin-left : 15px;
+    color       : black;
     margin-right: 20px;
+    font-size   : 1rem;
 }
 
-#dlPDF {
-    color: black;
-    padding: 10px;
-    font-size:x-large;
-    margin-top: 30px;
-    margin-bottom: 75px;   
+.dlPDF {
+    display       : flex;
+    flex-direction: column;
+    flex-wrap     : wrap;
+    color         : black;
+    padding       : 10px;
+    font-size     : 2rem;
+    margin-top    : 30px;
+    margin-bottom : 75px;
+    text-align    : center;
 }
 
 a {
@@ -73,35 +105,4 @@ a {
 
 a:hover {
     color: black;
-}
-
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-    b{
-        font-size: 2rem;
-    }
-
-    h1 {
-        font-size: medium;
-    }
-
-    h2 {
-        font-size: 2rem;
-    }
-
-
-  }
-
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-
-b {
-    font-size: 2rem;
-}
-h2 {
-    font-size: 2rem;
-}
 }

@@ -8,9 +8,14 @@ img.img {
     margin-bottom : 10px;
 }
 
+div.card-body ul, 
 ul {
-    display   : flex;
-    text-align: center;
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    text-align    : center;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 p {
@@ -25,11 +30,9 @@ h4 {
 }
 
 h5 {
-    display   : inline;
     text-align: center;
-    padding   : 10px;
     margin    : 0;
-    margin-top: 10px;
+    margin-top: 5px;
     color     : white;
 }
 
@@ -52,54 +55,55 @@ div.card-header {
     color          : white;
 }
 
-.card-deck {
+div.card-deck,
+div.card-deck ul {
     display              : flex;
     flex-wrap            : wrap;
-    justify-content      : space-evenly;
+    justify-content      : space-around;
     background-color     : transparent;
     border               : none;
     color                : white;
     font-family          : Arimo;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    grid-gap             : .5rem;
+    
     text-align           : center;
+    padding              : 0;
 }
 
 div.card-body {
-    display        : flex;
-    flex-wrap      : wrap;
-    justify-content: center;
-    color          : white;
+    display       : flex;
+    flex-direction: column;
+    flex-wrap     : wrap;
+    align-content : center;
+    color         : white;
 }
 
 div.card {
-    text-align     : center;
-    display        : flex;
-    flex-wrap      : wrap;
-    flex-direction : column;
-    flex-wrap      : wrap;
-    justify-items  : baseline;
-    justify-content: space-evenly;
-    width          : 24em;
-    border-radius  : 0.6em;
-    margin         : em;
-    transition     : all ease 200ms;
+    text-align        : center;
+    display           : flex;
+    flex-wrap         : wrap;
+    flex-direction    : column;
+    flex-wrap         : wrap;
+    justify-items     : baseline;
+    justify-content   : space-evenly;
+    width             : 24em;
+    border-radius     : 0.6em;
+    /* margin         : em; */
+    transition        : all ease 200ms;
 }
 
 html,
 body {
-    height                  : 1900px;
-    /* background           : rgb(34, 132, 195);
-    background              : linear-gradient(14deg, rgba(34, 132, 195, 1) 0%, rgba(11, 199, 184, 1) 67%, rgba(0, 232, 178, 1) 100%); */
-    background              : rgb(34, 132, 195);
-    background              : linear-gradient(354deg, rgba(34, 132, 195, 1) 0%, rgba(11, 199, 184, 1) 67%, rgba(0, 232, 178, 1) 100%);
-    height                  : 100%;
-    overflow                : hidden;
-    background-attachment   : fixed !important;
-    bottom                  : 0;
-    left                    : 0;
-    right                   : 0;
-    overflow                : auto;
+    height               : 1900px;
+    background           : rgb(34, 132, 195);
+    background           : linear-gradient(354deg, rgba(34, 132, 195, 1) 0%, rgba(11, 199, 184, 1) 67%, rgba(0, 232, 178, 1) 100%);
+    height               : 100%;
+    overflow             : hidden;
+    background-attachment: fixed !important;
+    bottom               : 0;
+    left                 : 0;
+    right                : 0;
+    overflow             : auto;
 }
 
 div.content-container {
@@ -115,6 +119,7 @@ div.content-container {
 @media only screen and (max-width: 800px) {
     img.img {
         display       : flex;
+        flex-direction: column;
         width         : 40rem;
         height        : 25rem;
         border-radius : 25px;
@@ -124,9 +129,14 @@ div.content-container {
     }
 
     div.card-body {
-        width       : 70%;
-        margin-left : 15%;
-        margin-right: 15%;
+        display: flex;
+        width  : 70%;
+        flex-direction : column;
+        flex-wrap      : wrap;
+        justify-content: center;
+        align-content  : center;
+        text-align     : center;
+        align-items    : center;
 
     }
 
@@ -135,7 +145,7 @@ div.content-container {
     card-deck {
         display              : flex;
         flex-wrap            : wrap;
-        justify-content      : space-around;
+        justify-content      : center;
         background-color     : transparent;
         border               : none;
         color                : white;
@@ -147,8 +157,8 @@ div.content-container {
     }
 
     div.card {
-        width          : 100%;
-        justify-content: space-between;
+        width        : 100%;
+        align-content: center;
     }
 
     h4 {
@@ -166,9 +176,22 @@ div.content-container {
         transform : scale(1.07);
         transition: all 550ms ease-in-out;
     }
+
+    .card-deck {
+        display              : flex;
+        flex-wrap            : wrap;
+        justify-content      : center;
+        background-color     : transparent;
+        border               : none;
+        color                : white;
+        font-family          : Arimo;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        grid-gap             : .5rem;
+        text-align           : center;
+    }
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 1000px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+@media only screen and (min-device-width: 375px) and (orientation: landscape) {
 
     div.card-header {
         display        : flex;
@@ -178,38 +201,26 @@ div.content-container {
         color          : white;
     }
 
-    .card-deck {
-        display              : flex;
-        flex-wrap            : wrap;
-        justify-content      : space-evenly;
-        background-color     : transparent;
-        border               : none;
-        color                : white;
-        font-family          : Arimo;
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-        grid-gap             : .5rem;
-        text-align           : center;
-    }
+
 
     div.card-body {
         display        : flex;
         flex-wrap      : wrap;
         justify-content: center;
         color          : white;
+        align-items    : center;
     }
 
     div.card {
-        text-align     : center;
-        display        : flex;
-        flex-wrap      : wrap;
-        flex-direction : column;
-        flex-wrap      : wrap;
-        justify-items  : baseline;
-        justify-content: space-evenly;
-        width          : 50em;
-        border-radius  : 0.6em;
-        margin         : 1em;
-        transition     : all ease 200ms;
+        text-align    : center;
+        display       : flex;
+        flex-wrap     : wrap;
+        flex-direction: column;
+        justify-items : baseline;
+        align-content : center !important;
+        border-radius : 0.6em;
+        margin        : 1em;
+        transition    : all ease 200ms;
     }
 
 

@@ -55,8 +55,6 @@ class Gallery extends Component {
                     "desc": "with the skills we had at the time, we built what we could of an idea for helping parents and sitters communicate the minutia of childcare",
                     "urlApp": "https://polysnacktyl.github.io/project-1/",
                     "urlRepo": "https://github.com/polysnacktyl/babysittr/tree/main",
-                    "tools": "",
-                    "challenges": ""
                 }
             ]
         };

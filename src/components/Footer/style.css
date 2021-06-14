@@ -4,14 +4,13 @@ ul li p {
     display        : flex;
     flex-direction : row;
     flex-wrap      : wrap;
-    justify-content: space-around;
     justify-items  : center;
     list-style-type: none;
     padding-left   : 17px;
     padding-right  : 17px;
-    font-size      : 1.3rem;
+    font-size      : 1.5rem;
     font-weight    : normal;
-    align-items    : flex-end;
+    align-items    : center;
 }
 
 .fas {
@@ -19,29 +18,32 @@ ul li p {
     padding-right: 3px;
 }
 
-.footer--pin ul {
+.footer--pin {
     display        : flex;
     flex-direction : row;
     flex-wrap      : wrap;
     justify-content: center;
     justify-items  : center;
+    align-items    : center;
     color          : white;
     margin-top     : 2%;
+    padding-bottom: 1%;
 }
 
 @media (max-width: 568px) {
-    ul {
-        display        : flex;
-        flex-direction : row;
-        flex-wrap      : wrap;
+
+    footer ul,
+    footer li,
+    footer a {
+        display        : flex !important;
+        flex-direction : row !important;
+        flex-wrap      : wrap !important;
         justify-items  : center;
-        justify-content: space-around;
-        font-size: 2rem;
-        width: 60%;
-        margin-left: 20%;
-        margin-right:20%;
-        
-        
+        justify-content: center;
+        align-items    : center;
+        font-size      : 1.7rem !important;
+        padding        : 0;
+        width: 90%;
     }
 
 }
