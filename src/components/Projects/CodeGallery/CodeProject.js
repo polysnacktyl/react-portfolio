@@ -18,9 +18,8 @@ function CodeProject() {
                 {/* eslint-disable */}
                 <img className='img' src={project.image} alt={project.alt}></img>
                 <div className='project-links'>
-                    {/* eslint-disable jsx-a11y/anchor-is-valid */}
-                    <a className='launch' src={project.urlApp}>launch the app</a>
-                    <a className='launch' src={project.urlRepo}>see the code</a>
+                    <a href={project.urlApp} rel="noreferrer" target="_blank">launch the app</a>
+                    <a href={project.urlRepo} rel="noreferrer" target="_blank">see the code</a>
                 </div>
                 <div className='discuss'>
                     <div className='description'><h4>Project</h4><p>{project.desc}</p></div>
