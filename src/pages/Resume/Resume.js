@@ -17,7 +17,7 @@ class Resume extends React.Component {
                                 </ul>
                             </div>
 
-                            <hr></hr>
+                            {/* <hr></hr> */}
 
                             <h2>JR. MERN STACK DEVELOPER</h2>
                             <hr></hr>

@@ -110,7 +110,7 @@ body {
     overflow             : auto;
 }
 
-div.content-container {
+.content-container {
     position     : relative;
     top          : 0;
     bottom       : 0;

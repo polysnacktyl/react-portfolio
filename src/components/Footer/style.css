@@ -1,6 +1,6 @@
-ul li,
-ul li a,
-ul li p {
+footer ul li,
+footer ul li a,
+footer ul li p {
     display        : flex;
     flex-direction : row;
     flex-wrap      : wrap;
@@ -27,11 +27,13 @@ ul li p {
     align-items    : center;
     color          : white;
     margin-top     : 2%;
-    padding-bottom: 1%;
+    padding-bottom : 1%;
+    width          : 100%;
 }
 
 @media (max-width: 568px) {
 
+    .footer--pin,
     footer ul,
     footer li,
     footer a {
@@ -43,7 +45,7 @@ ul li p {
         align-items    : center;
         font-size      : 1.7rem !important;
         padding        : 0;
-        width: 90%;
+        width          : 90%;
     }
 
 }

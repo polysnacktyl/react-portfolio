@@ -26,8 +26,8 @@ hr {
     min-width : 98%;
 }
 
-.links {
-    padding-bottom: 10px;
+div.links {
+    padding-bottom: 5px;
     padding-top   : 10px;
     font-size     : 1.3rem;
 }
@@ -43,7 +43,6 @@ hr {
         max-width      : 75%;
         font-size      : 1.5rem;
         padding-top    : 2%;
-        /* padding-bottom : 2%; */
     }
 
     div.navbar {
@@ -78,6 +77,6 @@ hr {
     }
 
     a {
-        padding: 5px;
+        padding: 15px;
     }
 }

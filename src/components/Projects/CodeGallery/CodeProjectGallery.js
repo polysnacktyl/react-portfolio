@@ -17,7 +17,7 @@ const Projects = () => {
     });
     return (
         <>
-            <div className='content-container'>
+            <div className='projectGallery-content-container'>
                 <div className='outer-back'>
                     <div className='card-deck'>
                         {projects}
