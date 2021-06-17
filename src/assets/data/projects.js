@@ -10,7 +10,7 @@ const ProjectsData = [
     {
         "id": 1,
         "title": "Neighborly",
-        "image": "https://raw.githubusercontent.com/polysnacktyl/react-portfolio/main/src/images/expanded-views/neighborly-1-landing.png",
+        "image": "https://raw.githubusercontent.com/polysnacktyl/react-portfolio/main/src/assets/images/expanded-views/neighborly-1-landing.png",
         "alt": "screenshot",
         "desc": "A community hub to facilitate communication and engagement for a mutual aid organization in my city. This project's basic design means it can be re-purposed for use in other areas as well.",
         "urlApp": "https://infinite-forest-58133.herokuapp.com/",
@@ -23,7 +23,7 @@ const ProjectsData = [
         "id": 2,
         "alt": "screenshot",
         "title": "fungID",
-        "image": "https://raw.githubusercontent.com/polysnacktyl/react-portfolio/main/src/images/expanded-views/fungID-1-landing.png",
+        "image": "https://raw.githubusercontent.com/polysnacktyl/react-portfolio/main/src/assets/images/expanded-views/fungID-1-landing.png",
         "desc": "a fun fungus-finder's guide,",
         "urlApp": "https://fung-i-d-ployed.herokuapp.com/mush-room",
         "urlRepo": "https://github.com/polysnacktyl/fung-id-1",
@@ -34,7 +34,7 @@ const ProjectsData = [
     {
         "id": 3,
         "title": "HTML Generator",
-        "image": "https://raw.githubusercontent.com/polysnacktyl/react-portfolio/main/src/images/profileGen.png",
+        "image": "https://raw.githubusercontent.com/polysnacktyl/react-portfolio/main/src/assets/images/profileGen.png",
         "alt": "screenshot",
         "urlApp": null,
         "urlRepo": "https://github.com/polysnacktyl/team-profile-generator",
@@ -45,7 +45,7 @@ const ProjectsData = [
     {
         "id": 4,
         "title": "Password Generator",
-        "image": "https://raw.githubusercontent.com/polysnacktyl/react-portfolio/main/src/images/expanded-views/passwordGen-1-landing.png",
+        "image": "https://raw.githubusercontent.com/polysnacktyl/react-portfolio/main/src/assets/images/expanded-views/passwordGen-1-landing.png",
         "alt": "screenshot",
         "desc": "a javascript password generator",
         "urlApp": "https://polysnacktyl.github.io/js-password-generator/",
@@ -57,7 +57,7 @@ const ProjectsData = [
     {
         "id": 5,
         "title": "babysittr",
-        "image": "https://raw.githubusercontent.com/polysnacktyl/react-portfolio/main/src/images/babysittr.png",
+        "image": "https://raw.githubusercontent.com/polysnacktyl/react-portfolio/main/src/assets/images/babysittr.png",
         "alt": "screenshot",
         "desc": "with the skills we had at the time, we built what we could of an idea for helping parents and sitters communicate the minutia of childcare",
         "urlApp": "https://polysnacktyl.github.io/project-1/",
