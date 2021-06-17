@@ -8,6 +8,16 @@ img.img {
     margin-bottom : 10px;
 }
 
+img.img:hover {
+    transform : scale(1.04);
+    transition: all 450ms ease-in-out;
+}
+
+.back {
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+
 div.card-body ul, 
 ul {
     display       : flex;
@@ -23,12 +33,6 @@ p {
     margin : 0;
 }
 
-h4 {
-    justify-self  : center;
-    color         : white !important;
-    padding-bottom: 5px;
-}
-
 h5 {
     text-align: center;
     margin    : 0;
@@ -38,8 +42,6 @@ h5 {
 
 h5:hover {
     color     : black;
-    transform : scale(1.07);
-    transition: all 550ms ease-in-out;
 }
 
 a:hover {
@@ -53,6 +55,9 @@ div.card-header {
     flex-wrap      : wrap;
     justify-content: space-around;
     color          : white;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 div.card-deck,
@@ -88,7 +93,6 @@ div.card {
     justify-content   : space-evenly;
     width             : 24em;
     border-radius     : 0.6em;
-    /* margin         : em; */
     transition        : all ease 200ms;
 }
 
@@ -114,6 +118,8 @@ div.content-container {
     right        : 0;
     overflow     : auto;
     justify-items: space-around;
+    display: flex;
+    flex-direction: column !important;
 }
 
 @media only screen and (max-width: 800px) {
@@ -235,5 +241,7 @@ div.content-container {
         font-size: smaller;
         padding  : 0;
     }
+
+
 
 }

@@ -11,17 +11,14 @@ function Navbar() {
         home
       </NavLink>
       <NavLink activeClassName="active" to="/work">
-        coding
-      </NavLink>
-      <NavLink activeClassName="active" to="/docs">
-        tech writing
+        work
       </NavLink>
       <NavLink activeClassName="active" to="/resume">
         resumé
       </NavLink>
       <a href="https://github.com/polysnacktyl" rel="noreferrer" target="_blank">
         github</a>
-
+        <a href='https://www.linkedin.com/in/polysnacktyl' rel="noreferrer" target="_blank">linkedIn</a>
         </div>
       <hr></hr>
     </div>

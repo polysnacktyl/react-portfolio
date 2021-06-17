@@ -1,6 +1,6 @@
-// import React from "react";
-// import { Link } from "react-router-dom";
-import "../Gallery/gallery.css"
+import React from "react";
+import { Link } from "react-router-dom";
+import "./gallery.css"
 
 const Cards = props => (
 <div className="content-container"> 
@@ -13,7 +13,7 @@ const Cards = props => (
                     {/* <Link to={"/work/" + item.id}> */}
                     <img className="img" src={item.image.default} alt={item.alt}></img>
                     {/* </Link> */}
-                    <ul><a href={item.urlRepo} rel="noreferrer" target="_blank"><h5>see the code</h5></a><a href={item.urlApp} rel="noreferrer" target="_blank"><h5>launch the app</h5></a></ul>
+                   
                 </div>
             </div>)
         })}

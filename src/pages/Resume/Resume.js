@@ -85,7 +85,7 @@ class Resume extends React.Component {
 
                 </div>
                 <div className='dlPDF'>
-                    <a href="https://drive.google.com/uc?export=download&id=1J87vNLxhQFAywZKlNeBxkl-h9KHhxOsd" download><i className="fas fa-save"> </i> download pdf <i className="fas fa-save"> </i></a>
+                    <a href="https://drive.google.com/uc?export=download&id=1jmA30dBavtQAmnXRFHT9YX_5RCgNk5FV" download><i className="fas fa-save"> </i> download pdf <i className="fas fa-save"> </i></a>
                 </div>
             </div>
 
