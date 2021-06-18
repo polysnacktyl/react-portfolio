@@ -33,26 +33,33 @@
 }
 
 .description {
-    display            : flex;
-    flex-direction     : column;
-    flex-wrap          : wrap;
-    width              : 94%;
-    border-radius      : 15px;
-    margin-top         : 15px;
-    margin-left        : 10px;
-    margin-right       : 10px;
-    padding            : 5px;
-    /* padding         : 10px;
-    margin-bottom      : 20px; */
-    align-content      : center;
-    background-color   : rgba(255, 255, 255, 0.3);
+    display         : flex;
+    flex-direction  : column;
+    flex-wrap       : wrap;
+    width           : 94%;
+    border-radius   : 15px;
+    margin-top      : 15px;
+    margin-left     : 10px;
+    margin-right    : 10px;
+
+    padding-left         : 20px;
+    padding-right: 20px;
+    margin-bottom   : 20px;
+    align-content   : center;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.description p {
+    font-size: 1rem;
 }
 
 
-.detail h4 {
+.description h4 {
     text-align: center;
     color     : white;
     margin-top: 15px;
+    font-size: 1.2rem !important;
+    padding-bottom: 5px;
 }
 
 .launch {
@@ -60,24 +67,39 @@
 }
 
 .project-links,
-.project-links a {
-    display        : flex;
+.project-links ul, 
+.project-links li, 
+.project-links abbr
+{
+    display        : inline-flex;
     flex-direction : row;
-    justify-content: space-evenly;
-    padding-top    : 15px;
+    justify-content: space-around;
     padding-bottom : 25px;
+    width: inherit;
 }
 
 .project a {
     font-weight: normal;
 }
 
+
+.icons-row{
+    display: flex;
+    flex-direction: row;
+}
 .icons {
-    padding-top: 350px;
+    display        : flex;
+    flex-direction : row;
+    flex-wrap      : wrap;
+    width          : 70%;
+    height         : 200px;
+    justify-content: center;
+    align-content  : center;
 }
 
 .icons img {
-    height: 40px;
+    height: 35px;
+    padding: 7px;
 }
 
 .details {
@@ -100,10 +122,16 @@
     margin-left     : 10px;
     margin-right    : 10px;
     padding         : 5px;
+    text-align      : left;
+}
+
+.back .fas {
+    font-size: xxx-large;
 }
 
 .detail p {
-    padding      : 0;
+    padding-left : 7px;
+    padding-right: 7px;
     margin-bottom: 100px;
     font-size    : .8rem;
     margin-top   : 0;
@@ -113,10 +141,26 @@
     margin-bottom: 50px;
 }
 
+.paragraph {
+    display       : flex;
+    flex-direction: row;
+    flex-wrap     : wrap;
+    padding       : 5px;
+    width         : 90%;
+    border        : solid;
+    border-radius : 15px;
+}
+
 .discuss {
-    width: 100%;
-    display: flex;
+    width          : 100%;
+    display        : flex;
+    flex-direction: row;
     justify-content: center;
+}
+
+.projectsNav{
+    display: flex;
+    width: 50%;
 }
 
 @media only screen and (max-width: 800px) {
