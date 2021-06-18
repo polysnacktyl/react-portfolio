@@ -8,21 +8,21 @@ function CodeProject() {
     // eslint-disable-next-line
     const project = ProjectsData.find(proj => proj.id == projectID)
 
-
-
-
     return (
         <div className="content-container">
             <div className='project'>
+                
                 <div className='title'>{project.title}</div>
                 {/* eslint-disable */}
                 <img className='img' src={project.image} alt={project.alt}></img>
+
                 <div className='project-links'>
                     <ul className='project-links'>
-                        <li className='project-links'> <a hidden={project.urlApp==null} href={project.urlApp} rel="noreferrer" target="_blank">launch the app</a></li>
+                        <li className='project-links'> <a hidden={project.urlApp == null} href={project.urlApp} rel="noreferrer" target="_blank">launch the app</a></li>
                         <li className='project-links'> <a href={project.urlRepo} rel="noreferrer" target="_blank">see the code</a></li>
                     </ul>
                 </div>
+
                 <div className='discuss'>
                     <div className='description'>
                         <h4>Project</h4>
@@ -31,10 +31,7 @@ function CodeProject() {
                         <h4>Challenges</h4>
                         <p>{project.challenges}</p>
                     </div>
-
-
                 </div>
-
             </div>
 
             <div className='icons'>
