@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.66f743eb.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.fa92a4f6.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.fa92a4f6.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.62f9580f.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.62f9580f.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.fed61080.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.fed61080.js.map",
     "static/js/2.a25203ee.chunk.js": "/react-portfolio/static/js/2.a25203ee.chunk.js",
@@ -19,6 +19,7 @@
     "static/media/expressnew.7e078b08.svg": "/react-portfolio/static/media/expressnew.7e078b08.svg",
     "static/media/github.4e156d22.svg": "/react-portfolio/static/media/github.4e156d22.svg",
     "static/media/htmlnew.79d405e8.svg": "/react-portfolio/static/media/htmlnew.79d405e8.svg",
+    "static/media/illustrator.6d7ffea3.svg": "/react-portfolio/static/media/illustrator.6d7ffea3.svg",
     "static/media/image.jpeg": "/react-portfolio/static/media/image.dd31d3ff.jpeg",
     "static/media/javascript.b623b687.svg": "/react-portfolio/static/media/javascript.b623b687.svg",
     "static/media/linkedin.4303b81f.svg": "/react-portfolio/static/media/linkedin.4303b81f.svg",
@@ -30,6 +31,6 @@
     "static/js/runtime-main.fed61080.js",
     "static/js/2.a25203ee.chunk.js",
     "static/css/main.66f743eb.chunk.css",
-    "static/js/main.fa92a4f6.chunk.js"
+    "static/js/main.62f9580f.chunk.js"
   ]
 }
