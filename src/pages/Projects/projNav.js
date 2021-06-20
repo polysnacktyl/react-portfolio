@@ -7,12 +7,11 @@ function ChooseGallery() {
         <div className='content-container'>
             <div className='main'>
                 <div className='options'>
-                    <Link to='/work/coding'> <div className='choice'>Web Dev Projects</div></Link>
-                    <Link to='/work/docs'> <div className='choice'>Tech Writing Portfolio<br></br>
-                        (18MB)</div></Link>
+                    <Link to='/work/coding'> <div className='choice'>Web Development</div></Link>
+                    <Link to='/work/docs'> <div className='choice'>Technical Writing</div></Link>
                 </div>
             </div>
-            
+
         </div>
 
     )

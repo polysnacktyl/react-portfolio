@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
-import documentsData from '../../../assets/data/documents';
-import './style.css';
+import documentsData from '../../../../assets/data/documents';
+import '../style.css';
 
 
-class Doc extends Component {
+class EditingProject extends Component {
   state = { numPages: null, pageNumber: 1 };
   onDocumentLoadSuccess = ({ numPages }) => {
     this.setState({ numPages });
@@ -30,7 +30,7 @@ class Doc extends Component {
             </nav>
             <div className='PDF' style={{ width: 650 }}>
               <Document
-                file={documentsData.id}
+                file={documentsData[5]}
                 onLoadSuccess={this.onDocumentLoadSuccess}
               >
                 <Page pageNumber={pageNumber} width={650} />
@@ -57,5 +57,5 @@ class Doc extends Component {
   }
 };
 
-export default Doc;
+export default EditingProject;
 

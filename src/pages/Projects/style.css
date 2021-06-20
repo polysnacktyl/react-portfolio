@@ -1,21 +1,21 @@
 .options {
     display        : flex;
-    flex-direction : row;
+    flex-direction : column;
     flex-wrap      : wrap;
     justify-content: space-evenly;
-    align-content: center;
+    align-content  : center;
     width          : 100%;
 }
 
 .choice {
     display         : flex;
     flex-direction  : row;
-    height          : 100%;
-    width           : 300px;
+    height          : 200px;
+    width           : 500px;
     background-color: white;
     color           : black;
-    margin          : 1%;
-    padding: 2%;
+    margin          : 5%;
+    padding         : 2%;
     border-radius   : 15px;
     align-items     : center;
     justify-content : center;
@@ -30,7 +30,7 @@
     flex-wrap      : wrap;
     width          : 100%;
     justify-content: center;
-    align-content: center;
+    align-content  : center;
 }
 
 .content-container {
