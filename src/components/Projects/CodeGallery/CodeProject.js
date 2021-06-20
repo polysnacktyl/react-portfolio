@@ -3,24 +3,49 @@ import { Link, useParams } from 'react-router-dom';
 import ProjectsData from '../../../assets/data/projects';
 import './project.css';
 
+
+
 function CodeProject() {
     const { projectID } = useParams()
     // eslint-disable-next-line
     const project = ProjectsData.find(proj => proj.id == projectID)
 
+    const url = project.url.map((url, i) => {
+        return(
+        <div>
+            <ul className='project-links'>
+                <li className='project-links'>
+                    <a href={url.link} rel="noreferrer" target="_blank">{url.title}</a>
+                </li>
+            </ul>
+        </div>
+    )});
+
+
+    const icons = project.icons.map((icons, i) => {
+        return (
+            <div className='icons'>
+                <ul>
+                    <li>
+                        <img key={i} title={icons.title} src={icons.icon} />
+                    </li>
+                </ul>
+            </div>
+        )
+    });
+
     return (
         <div className="content-container">
             <div className='project'>
-                
+
                 <div className='title'>{project.title}</div>
                 {/* eslint-disable */}
                 <img className='img' src={project.image} alt={project.alt}></img>
 
                 <div className='project-links'>
-                    <ul className='project-links'>
-                        <li className='project-links'> <a hidden={project.urlApp == null} href={project.urlApp} rel="noreferrer" target="_blank">launch the app</a></li>
-                        <li className='project-links'> <a href={project.urlRepo} rel="noreferrer" target="_blank">see the code</a></li>
-                    </ul>
+
+                    {url}
+
                 </div>
 
                 <div className='discuss'>
@@ -35,17 +60,8 @@ function CodeProject() {
             </div>
 
             <div className='icons'>
-                <img src={project.icon1} />
-                <img src={project.icon2} />
-                <img src={project.icon3} />
-                <img src={project.icon4} />
-                <img src={project.icon5} />
-                <img src={project.icon6} />
-                <img src={project.icon7} />
+                {icons}
             </div>
-
-
-
 
             <div className='projectsNav'>
                 {/* <Link to='/work/coding/'><i class="fas fa-angle-double-left"></i></Link>

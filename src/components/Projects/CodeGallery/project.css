@@ -33,17 +33,17 @@
 }
 
 .description {
-    display         : flex;
-    flex-direction  : column;
-    flex-wrap       : wrap;
-    width           : 94%;
-    border-radius   : 15px;
-    margin-top      : 15px;
-    margin-left     : 10px;
-    margin-right    : 10px;
+    display       : flex;
+    flex-direction: column;
+    flex-wrap     : wrap;
+    width         : 94%;
+    border-radius : 15px;
+    margin-top    : 15px;
+    margin-left   : 10px;
+    margin-right  : 10px;
 
-    padding-left         : 20px;
-    padding-right: 20px;
+    padding-left    : 20px;
+    padding-right   : 20px;
     margin-bottom   : 20px;
     align-content   : center;
     background-color: rgba(255, 255, 255, 0.3);
@@ -55,10 +55,10 @@
 
 
 .description h4 {
-    text-align: center;
-    color     : white;
-    margin-top: 15px;
-    font-size: 1.2rem !important;
+    text-align    : center;
+    color         : white;
+    margin-top    : 15px;
+    font-size     : 1.2rem !important;
     padding-bottom: 5px;
 }
 
@@ -67,15 +67,14 @@
 }
 
 .project-links,
-.project-links ul, 
-.project-links li, 
-.project-links abbr
-{
+.project-links ul,
+.project-links li,
+.project-links abbr {
     display        : inline-flex;
     flex-direction : row;
     justify-content: space-around;
     padding-bottom : 25px;
-    width: inherit;
+    width          : inherit;
 }
 
 .project a {
@@ -83,23 +82,37 @@
 }
 
 
-.icons-row{
-    display: flex;
+.icons-row {
+    display       : flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0; 
+    padding: 0;
 }
-.icons {
+
+div.icons {
     display        : flex;
     flex-direction : row;
     flex-wrap      : wrap;
-    width          : 70%;
+    /* width          : 70%; */
     height         : 200px;
     justify-content: center;
     align-content  : center;
+    margin: 0 !important;
+}
+
+div.icons ul li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    margin: 0 !important;
+    padding: 0 !important;
+
 }
 
 .icons img {
-    height: 35px;
-    padding: 7px;
+    height : 50px;
+    
 }
 
 .details {
@@ -154,13 +167,13 @@
 .discuss {
     width          : 100%;
     display        : flex;
-    flex-direction: row;
+    flex-direction : row;
     justify-content: center;
 }
 
-.projectsNav{
+.projectsNav {
     display: flex;
-    width: 50%;
+    width  : 50%;
 }
 
 @media only screen and (max-width: 800px) {
