@@ -12,31 +12,19 @@ function CodeProject() {
 
     const url = project.url.map((url, i) => {
         return (
-            <div>
-                <ul className='project-links'>
-                    <li className='project-links'>
-                        <a href={url.link} rel="noreferrer" target="_blank">{url.title}</a>
+            <div key={i}>
+                <ul key={i} className='project-links'>
+                    <li key={i} className='project-links'>
+                        <a key={i} href={url.link} rel="noreferrer" target="_blank">{url.title}</a>
                     </li>
                 </ul>
             </div>
         )
     });
 
-    // const summaryTitle = project.summaryTitle.map((section, i) => {
-    //     return (
-    //         <h4 key={i}>{section.title}</h4>
-    //     )
-    // });
-
     const summary = project.summary.map((section, i) => {
         return (
             <p key={i}>{section.paragraph}</p>
-        )
-    });
-
-    const challengesTitle = project.challenges.map((section, i) => {
-        return (
-            <h4 key={i}>{section.title}</h4>
         )
     });
 
@@ -48,10 +36,10 @@ function CodeProject() {
 
     const icons = project.icons.map((icons, i) => {
         return (
-            <div className='icons'>
-                <ul>
-                    <li>
-                        <img key={i} title={icons.title} src={icons.icon} />
+            <div key={i} className='icons'>
+                <ul key={i}>
+                    <li key={i}>
+                        <img key={i} title={icons.title} src={icons.icon} alt={project.alt} />
                     </li>
                 </ul>
             </div>
@@ -86,9 +74,12 @@ function CodeProject() {
                 {icons}
             </div>
 
-            <div className='projectsNav'>
-            </div>
-            <Link to='/work/coding'><div className='back'><i class='fas fa-long-arrow-alt-left'></i> </div></Link>
+            <Link
+                to='/work/coding'>
+                <div className='back'>
+                    <i className='fas fa-long-arrow-alt-left'></i>
+                </div>
+            </Link>
         </div>
     )
 };

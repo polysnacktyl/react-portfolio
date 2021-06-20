@@ -1,4 +1,4 @@
-import mongothicc from '../icons/mongothicc.svg';
+import mongo from '../icons/mongothicc.svg';
 import reactsvg from '../icons/react.svg';
 import expressnew from '../icons/expressnew.svg'
 import htmlnew from '../icons/htmlnew.svg';
@@ -6,12 +6,15 @@ import css from '../icons/cssnew.svg';
 import javascript from '../icons/javascript.svg';
 import nodejs from '../icons/nodejs.svg';
 import bootstrap from '../icons/bootstrapnew.svg';
-import linkedin from '../icons/linkedin.svg';
-import email from '../icons/email.svg';
 import github from '../icons/github.svg';
 import illustrator from '../icons/illustrator.svg';
-// sql 
-// handlebars
+import handlebars from '../icons/handlebars.svg';
+import SQL from '../icons/SQL.svg';
+import linkedin from '../icons/linkedin.svg';
+import email from '../icons/email.svg';
+import tester from '../icons/tester.svg';
+
+
 
 
 const ProjectsData = [
@@ -42,15 +45,21 @@ const ProjectsData = [
             [
                 { "title": "react", "icon": reactsvg },
                 { "title": 'javascript', "icon": javascript },
-                { "title": "mongoDB", "icon": mongothicc },
+                { "title": 'nodeJS', "icon": nodejs },
+                { "title": "mongoDB", "icon": mongo },
                 { "title": "express", "icon": expressnew },
                 { "title": "html", "icon": htmlnew },
                 { "title": 'css', "icon": css },
                 { "title": 'bootstrap', "icon": bootstrap },
+                { "title": 'illustrator', "icon": illustrator },
+                { "title": 'handlebars', "icon": handlebars },
+                { "title": 'SQL', "icon": SQL },
+                { "title": 'github', "icon": github },
+                { "title": 'email', "icon": email },
+                { "title": 'linkedin', "icon": linkedin },
+                // { "title": 'tester', "icon": tester }
             ]
     },
-
-
     {
         "id": 2,
         "alt": "screenshot",
@@ -76,10 +85,12 @@ const ProjectsData = [
             ],
         "icons":
             [
-                { "title": "mongoDB", "icon": javascript },
+                { "title": "javascript", "icon": javascript },
+                { "title": 'SQL', "icon": SQL },
                 { "title": "express", "icon": expressnew },
                 { "title": "html", "icon": htmlnew },
                 { "title": "css", "icon": css },
+                { "title": "handlebars", "icon": handlebars }, 
             ]
     },
     {
@@ -130,7 +141,7 @@ const ProjectsData = [
         "challenges":
             [
                 { "paragraph": "My main and most time-consuming struggle in this project was the randomization step. I was able to implement it quite easily, as the function is common and simple to copy and paste into a script. I fell down a bit of a rabbit hole finding an adequate explanation of how and why math.random does what it does, but I feel that was time pretty well spent. Other than that, getting the functions to fire in the proper order was a challenge." },
-                { "paragraph": "I also wanted a copy function for the password once it was generated, but had to table the function due to a short time budget--releasing perfectionist tendencies was a skill I did not know I actually needed until starting coding boot camp, but it's one I now value and continue strengthening outside the program." }
+                { "paragraph": "I also wanted a copy function for the password once it was generated, but had to table the idea due to a short time budget. Releasing perfectionist tendencies was a skill I did not know I actually needed until starting coding boot camp, but it's one I now value and continue strengthening outside the program." }
             ],
         "icons":
             [
