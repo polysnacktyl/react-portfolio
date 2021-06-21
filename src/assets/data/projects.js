@@ -5,14 +5,15 @@ import htmlnew from '../icons/htmlnew.svg';
 import css from '../icons/cssnew.svg';
 import javascript from '../icons/javascript.svg';
 import nodejs from '../icons/nodejs.svg';
-import bootstrap from '../icons/bootstrapnew.svg';
-// import github from '../icons/github.svg';
-// import illustrator from '../icons/illustrator.svg';
+import bootstrap from '../icons/bootsvg.svg';
 import handlebars from '../icons/handlebars.svg';
-import SQL from '../icons/SQL.svg';
+import SQL from '../icons/sqlsvg.svg';
+import heroku from '../icons/heroku.svg';
 // import linkedin from '../icons/linkedin.svg';
 // import email from '../icons/email.svg';
 // import tester from '../icons/tester.svg';
+// import github from '../icons/github.svg';
+// import illustrator from '../icons/illustrator.svg';
 
 const ProjectsData = [
     {
@@ -48,13 +49,7 @@ const ProjectsData = [
                 { "title": "html", "icon": htmlnew },
                 { "title": 'css', "icon": css },
                 { "title": 'bootstrap', "icon": bootstrap },
-                // { "title": 'illustrator', "icon": illustrator },
-                // { "title": 'handlebars', "icon": handlebars },
-                // { "title": 'SQL', "icon": SQL },
-                // { "title": 'github', "icon": github },
-                // { "title": 'email', "icon": email },
-                // { "title": 'linkedin', "icon": linkedin },
-                // { "title": 'tester', "icon": tester }
+                { "title": 'heroku', "icon": heroku }
             ]
     },
     {
@@ -84,6 +79,7 @@ const ProjectsData = [
             [
                 { "title": "javascript", "icon": javascript },
                 { "title": 'SQL', "icon": SQL },
+                { "title": 'heroku', "icon": heroku },
                 { "title": "express", "icon": expressnew },
                 { "title": "html", "icon": htmlnew },
                 { "title": "css", "icon": css },
