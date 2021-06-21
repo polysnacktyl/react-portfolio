@@ -4,7 +4,7 @@ import expressnew from '../icons/expressnew.svg'
 import htmlnew from '../icons/htmlnew.svg';
 import css from '../icons/cssnew.svg';
 import javascript from '../icons/javascript.svg';
-import nodejs from '../icons/nodeJS.svg';
+import nodejs from '../icons/nodejs.svg';
 import bootstrap from '../icons/bootstrapnew.svg';
 // import github from '../icons/github.svg';
 // import illustrator from '../icons/illustrator.svg';

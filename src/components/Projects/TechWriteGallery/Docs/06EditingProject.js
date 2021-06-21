@@ -25,7 +25,7 @@ class EditingProject extends Component {
                 className='prev'
                 disabled={pageNumber <= 1}
                 onClick={this.goToPrevPage}>
-                <i class="fas fa-angle-double-left"></i>
+                <i className="fas fa-angle-double-left"></i>
               </button>
             </nav>
             <div className='PDF' style={{ width: 650 }}>
@@ -41,7 +41,7 @@ class EditingProject extends Component {
                 className='next'
                 disabled={pageNumber >= numPages}
                 onClick={this.goToNextPage}>
-                <i class="fas fa-angle-double-right"></i>
+                <i className="fas fa-angle-double-right"></i>
               </button>
             </nav>
             <div className='count'>
