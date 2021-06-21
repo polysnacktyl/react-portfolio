@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.b8551697.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.013e57db.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.013e57db.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.91a750b9.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.91a750b9.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.fed61080.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.fed61080.js.map",
     "static/js/2.1d43dd0c.chunk.js": "/react-portfolio/static/js/2.1d43dd0c.chunk.js",
@@ -22,13 +22,13 @@
     "static/media/image.jpeg": "/react-portfolio/static/media/image.dd31d3ff.jpeg",
     "static/media/javascript.b623b687.svg": "/react-portfolio/static/media/javascript.b623b687.svg",
     "static/media/mongothicc.f72e5015.svg": "/react-portfolio/static/media/mongothicc.f72e5015.svg",
-    "static/media/nodeJS.9563f140.svg": "/react-portfolio/static/media/nodeJS.9563f140.svg",
+    "static/media/nodejs.9563f140.svg": "/react-portfolio/static/media/nodejs.9563f140.svg",
     "static/media/react.2deda2c0.svg": "/react-portfolio/static/media/react.2deda2c0.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.fed61080.js",
     "static/js/2.1d43dd0c.chunk.js",
     "static/css/main.b8551697.chunk.css",
-    "static/js/main.013e57db.chunk.js"
+    "static/js/main.91a750b9.chunk.js"
   ]
 }
