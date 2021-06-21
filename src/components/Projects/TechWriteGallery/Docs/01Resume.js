@@ -51,7 +51,7 @@ class ResPDF extends Component {
             </div>
           </div>
         </div>
-        <Link to='/work'><div className='back'>back</div></Link>
+        <Link to='/work/docs'><div className='back'>back</div></Link>
       </div>
     );
   }
