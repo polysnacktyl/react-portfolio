@@ -6,7 +6,7 @@ const About = () => {
     const about = AboutData.map(about => {
         return (
             <div key={about.id} className='content-container'>
-                <div className='content'>
+                <div className='about-container'>
                     <div className='image-outer'>
                         <div className='image-container'>
                             <img src={about.image} alt="alt"></img>
