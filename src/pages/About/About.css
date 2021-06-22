@@ -1,0 +1,90 @@
+.content {
+    display        : flex;
+    flex-direction : row;
+    flex-wrap      : wrap;
+    justify-content: center;
+
+}
+
+.about-container {
+    display       : flex;
+    flex-direction: row;
+    border-radius : 15px;
+    width         : 100%;
+}
+
+.text-container {
+    display         : flex;
+    flex-direction  : column;
+    flex-wrap       : wrap;
+    width           : 600px;
+    border-radius   : 15px;
+    text-align      : left;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin          : 10px;
+    padding         : 12px;
+
+}
+
+.text {
+    margin: 20px 20px 10px 20px;
+    color : black;
+}
+
+.image-outer {
+    display        : flex;
+    flex-direction : column;
+    flex-wrap      : wrap;
+    justify-content: center;
+    align-content  : center;
+
+    margin: 10px;
+}
+
+.image-container {
+    display        : flex;
+    flex-direction : column;
+    flex-wrap      : wrap;
+    justify-content: center;
+    align-items    : center;
+    padding        : 15px;
+    margin         : 80px;
+
+}
+
+.image-container img {
+    max-width    : 350px;
+    border-radius: 100%;
+    align-self   : center;
+
+}
+
+.skillz {
+    display       : flex;
+    flex-direction: column;
+    align-items   : flex-start;
+    margin-bottom : 0;
+}
+
+.skillz ul {
+    display   : flex;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.skillz li {
+    font-weight: 500;
+    padding    : 4px;
+}
+
+@media only screen and (max-width: 800px) {
+    .about-container {
+        display       : flex;
+        flex-direction: column;
+    }
+
+    .image-container {
+        display       : flex;
+        flex-direction: column;
+    }
+}

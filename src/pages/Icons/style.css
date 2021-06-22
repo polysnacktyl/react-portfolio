@@ -1,0 +1,78 @@
+
+.icon-set-outer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.icon-desc p {
+
+    padding: 15px;
+
+
+}
+
+.svg-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+padding: 50px 20px 20px 20px;
+
+    justify-content: flex-start;
+    align-content: flex-start;
+    background-color: rgba(255, 255, 255, 0.2);
+
+}
+
+.svg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+.svg-title p {
+    font-weight: 500;
+    font-size: xx-large;
+}
+
+.design-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border-radius: 15px;
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 600px;
+}
+
+.moon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border-radius: 15px;
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 600px;
+}
+
+.moon img {
+    height: 45px;
+    padding: 10px;
+}
+
+.design-icons img {
+    height: 55px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
