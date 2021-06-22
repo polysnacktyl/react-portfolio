@@ -9,9 +9,10 @@
     margin-right   : 10%;
 }
 
-.project img {
+img.screenshot {
     width : 37rem;
     height: 24rem;
+    border-radius: 20px;
 }
 
 .project img:hover {
@@ -41,18 +42,17 @@
     margin-top    : 15px;
     margin-left   : 10px;
     margin-right  : 10px;
-
     padding-left    : 20px;
     padding-right   : 20px;
     margin-bottom   : 20px;
     align-content   : center;
     background-color: rgba(255, 255, 255, 0.3);
+
 }
 
 .description p {
     font-size: 1rem;
 }
-
 
 .description h4 {
     text-align    : center;
@@ -72,20 +72,19 @@
 .project-links abbr {
     display        : inline-flex;
     flex-direction : row;
-    justify-content: space-around;
-    padding-bottom : 25px;
+    justify-content: center;
     width          : inherit;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .project a {
     font-weight: normal;
 }
 
-
 .icons-row {
     display       : flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     margin: 0; 
     padding: 0;
 }
@@ -94,8 +93,7 @@ div.icons {
     display        : flex;
     flex-direction : row;
     flex-wrap      : wrap;
-    /* width          : 70%; */
-    height         : 200px;
+    height         : 100px;
     justify-content: center;
     align-content  : center;
     margin: 0 !important;
@@ -104,7 +102,7 @@ div.icons {
 div.icons ul li {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap; 
+    /* flex-wrap: nowrap;  */
     margin: 0 !important;
     padding: 0 !important;
 

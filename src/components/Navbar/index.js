@@ -10,6 +10,9 @@ function Navbar() {
       <NavLink exact activeClassName="active" to="/">
         home
       </NavLink>
+      <NavLink exact activeClassName='active' to="/about">
+        about
+      </NavLink>
       <NavLink activeClassName="active" to="/work">
         work
       </NavLink>

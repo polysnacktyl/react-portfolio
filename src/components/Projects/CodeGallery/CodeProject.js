@@ -3,8 +3,6 @@ import { Link, useParams } from 'react-router-dom';
 import ProjectsData from '../../../assets/data/projects';
 import './project.css';
 
-
-
 function CodeProject() {
     const { projectID } = useParams()
     // eslint-disable-next-line
@@ -52,10 +50,16 @@ function CodeProject() {
 
                 <div className='title'>{project.title}</div>
                 {/* eslint-disable */}
-                <img className='img' src={project.image} alt={project.alt}></img>
-
+                <div className='project-image'>
+                    <img className='screenshot' src={project.image} alt={project.alt}></img>
+                </div>
                 <div className='project-links'>
                     {url}
+                </div>
+                <div className='icons'>
+                    <div className='icons-row'>
+                        {icons}
+                    </div>
                 </div>
 
                 <div className='discuss'>
@@ -70,10 +74,6 @@ function CodeProject() {
                 </div>
             </div>
 
-            <div className='icons'>
-                {icons}
-            </div>
-
             <Link
                 to='/work/coding'>
                 <div className='back'>
@@ -83,6 +83,5 @@ function CodeProject() {
         </div>
     )
 };
-
 
 export default CodeProject;
