@@ -1,36 +1,32 @@
-* {
-  text-decoration: none;
-  font-family    : 'Montserrat', sans-serif;
-}
-
 .content-container {
   min-height: calc(100vh - 250px);
 }
 
-footer, footer ul {
-  display: inline-flex !important;
-  width: 100%;
-  flex-direction: row;
-  flex-wrap: wrap;
+footer,
+footer ul {
+  display        : inline-flex !important;
+  width          : 100%;
+  flex-direction : row;
+  flex-wrap      : wrap;
   justify-content: center;
 }
 
 .footer--pin {
-  display: flex;
+  display       : flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  position     : relative;
-  left         : 0;
-  bottom       : 0;
-  /* max-height: 10vh !important; */
+  flex-wrap     : wrap;
+  position      : relative;
+  left          : 0;
+  bottom        : 0;
 }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+* {
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing : antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-decoration        : none;
 }
 
 html {
@@ -95,5 +91,3 @@ a:hover {
   }
 
 }
-
-

@@ -6,8 +6,6 @@ const About = () => {
     const about = AboutData.map(about => {
         return (
             <div key={about.id} className='content-container'>
-
-
                 <div className='content'>
                     <div className='image-outer'>
                         <div className='image-container'>
@@ -44,13 +42,9 @@ const About = () => {
                                 {about.paragraph3}
                             </div>
                         </div>
-
                     </div>
-
                 </div >
             </div >
-
-
         )
     })
 

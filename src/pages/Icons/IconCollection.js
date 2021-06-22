@@ -16,7 +16,7 @@ import SQL from '../../assets/icons/sqlsvg.svg';
 import linkedin from '../../assets/icons/linkedin.svg';
 import email from '../../assets/icons/email.svg';
 import favicon from '../../assets/icons/favicon.ico';
-import tester from '../../assets/icons/tester.svg';
+import heroku from '../../assets/icons/heroku.svg';
 
 function ShowIcons() {
     return (
@@ -45,7 +45,7 @@ function ShowIcons() {
                         <img src={bootstrapsvg} title="Bootstrap" alt='SVG icon'></img>
                     </div>
                     <div className='design-icons'>
-                        <img src={tester} title='heroku' alt='SVG icon'></img>
+                        <img src={heroku} title='Heroku' alt='SVG icon'></img>
                         <img src={illustrator} title="Adobe Illustrator" alt='SVG icon'></img>
                         <img src={github} title="GitHub" alt='SVG icon'></img>
                         <img src={linkedin} title="LinkedIn" alt='SVG icon'></img>

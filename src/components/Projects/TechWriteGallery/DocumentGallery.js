@@ -19,9 +19,6 @@ const Documents = () => {
             </div>
             <Link to='/work/'><div className='back'>back</div></Link>
         </div>
-
-
-
     )
 };
 

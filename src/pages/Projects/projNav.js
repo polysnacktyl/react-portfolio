@@ -12,9 +12,7 @@ function ChooseGallery() {
                     <Link to='/work/design'><div className='choice'>Design & Visuals</div></Link>
                 </div>
             </div>
-
         </div>
-
     )
 }
 

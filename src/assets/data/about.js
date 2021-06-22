@@ -11,7 +11,7 @@ const AboutData = [
         "li3": "SQL and MySQL Workbench",
         "li4": "NoSQL and MongoDB",
         "li5": "React",
-        "paragraph3": "I'm also a visual artist, mostly working digitally with Procreate on iPad Pro and Adobe Illustrator for Mac OS. I take great pleasure in adding my own design and illustration elements to technical documents and coding projects, including the favicon and SVG technology icons in this portfolio.",
+        "paragraph3": "I'm also a visual artist, mostly working digitally with Procreate on iPad Pro and Adobe Illustrator for Mac OS. I take great pleasure in adding my own design and illustration elements to technical documents and coding projects, including the illustrated image on this page, this URL's favicon, and the SVG tech icons in my web dev project detail views.",
         "image": image,
     }
 ]

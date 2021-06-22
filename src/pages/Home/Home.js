@@ -10,14 +10,10 @@ class Home extends React.Component {
                     <h3>Amanda Hamilton</h3>
                     <p className='subtitle'>web development & tech writing</p>
                     <img className="hello" src={image.default} alt="illustration" />
-
-
                 </div>
-
             </div>
         );
     }
-
 }
 
 export default Home;
