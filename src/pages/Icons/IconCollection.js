@@ -56,11 +56,10 @@ function ShowIcons() {
                     </div>
 
 
-
                 </div>
-                </div>
-                <Link to='/work'><div className='back'>back</div></Link>
             </div>
+            <Link to='/work'><div className='back'>back</div></Link>
+        </div>
 
 
     )

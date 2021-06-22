@@ -1,21 +1,23 @@
 .icon-set-outer {
-    display       : flex;
-    flex-direction: row;
-    flex-wrap     : wrap;
+    display        : flex;
+    flex-direction : row;
+    flex-wrap      : wrap;
+    justify-content: center;
+    align-items    : center;
 }
 
 .icon-desc p {
     padding: 15px;
 }
 
-.svg-text {
-    display       : flex;
-    flex-direction: column;
-    flex-wrap     : wrap;
-    width         : 500px;
-    height        : 500px;
-    border-radius : 15px;
-    padding       : 50px 20px 20px 20px;
+div.svg-text {
+    display         : flex;
+    flex-direction  : column;
+    flex-wrap       : wrap;
+    width           : 35rem;
+    height          : fit-content;
+    border-radius   : 15px;
+    padding         : 50px 20px 20px 20px;
     justify-content : flex-start;
     align-content   : flex-start;
     background-color: rgba(255, 255, 255, 0.2);
@@ -25,8 +27,9 @@
 .svg {
     display        : flex;
     flex-direction : column;
-    justify-content: center;
-    margin         : 20px;
+    justify-content: stretch;
+
+    margin: 20px;
 }
 
 .svg-title p {
@@ -44,7 +47,7 @@
     margin         : 20px;
     padding-top    : 20px;
     padding-bottom : 20px;
-    width          : 600px;
+    width          : 35rem;
 }
 
 .moon {
@@ -57,7 +60,6 @@
     margin         : 20px;
     padding-top    : 20px;
     padding-bottom : 20px;
-    width          : 600px;
 }
 
 .moon img {
@@ -69,4 +71,51 @@
     height       : 55px;
     padding-left : 20px;
     padding-right: 20px;
+}
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .icon-set-outer {
+        display        : flex;
+        flex-direction : column-reverse;
+        flex-wrap      : no-wrap;
+        justify-content: center;
+        align-items    : center;
+        width          : auto;
+    }
+
+    .design-icons img {
+        height       : 2.5rem;
+        padding-left : 20px;
+        padding-right: 20px;
+    }
+
+    div.svg-text,
+    div.svg-text p {
+        margin   : 10px;
+        padding  : 10px;
+        height   : fit-content;
+        font-size: 1.2rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    div.design-icons {
+        display  : flex;
+        flex-wrap: nowrap;
+        margin   : 5px;
+        padding  : 5px;
+    }
+
+    div.design-icons img {
+        height       : 3.5rem;
+        padding-left : 15px;
+        padding-right: 15px;
+        margin-top   : 10px;
+        margin-bottom: 10px;
+    }
 }

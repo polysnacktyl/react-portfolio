@@ -4,14 +4,11 @@
     flex-wrap      : wrap;
     justify-content: center;
     align-items    : center;
-    width          : 80%;
-    margin-left    : 10%;
-    margin-right   : 10%;
 }
 
 img.screenshot {
-    width : 37rem;
-    height: 24rem;
+    width        : 37rem;
+    height       : 24rem;
     border-radius: 20px;
 }
 
@@ -34,14 +31,14 @@ img.screenshot {
 }
 
 .description {
-    display       : flex;
-    flex-direction: column;
-    flex-wrap     : wrap;
-    width         : 94%;
-    border-radius : 15px;
-    margin-top    : 15px;
-    margin-left   : 10px;
-    margin-right  : 10px;
+    display         : flex;
+    flex-direction  : column;
+    flex-wrap       : wrap;
+    width           : 80%;
+    border-radius   : 15px;
+    margin-top      : 15px;
+    margin-left     : 10px;
+    margin-right    : 10px;
     padding-left    : 20px;
     padding-right   : 20px;
     margin-bottom   : 20px;
@@ -74,8 +71,8 @@ img.screenshot {
     flex-direction : row;
     justify-content: center;
     width          : inherit;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left   : 25px;
+    padding-right  : 25px;
 }
 
 .project a {
@@ -83,34 +80,43 @@ img.screenshot {
 }
 
 .icons-row {
-    display       : flex;
+    display        : flex;
+    flex-direction : row;
+    flex-wrap      : wrap;
+    margin         : 10px;
+    justify-content: center;
+}
+
+div.icons ul {
+    display: flex;
     flex-direction: row;
-    margin: 0; 
-    padding: 0;
+    margin: 2px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-top: 10px;
+    padding-bottom: 0;
+
 }
 
 div.icons {
     display        : flex;
     flex-direction : row;
     flex-wrap      : wrap;
-    height         : 100px;
     justify-content: center;
     align-content  : center;
-    margin: 0 !important;
+    margin         : 0 !important;
 }
 
 div.icons ul li {
-    display: flex;
+    display       : flex;
     flex-direction: row;
-    /* flex-wrap: nowrap;  */
-    margin: 0 !important;
-    padding: 0 !important;
+    margin        : 0 !important;
+    padding       : 0 !important;
 
 }
 
 .icons img {
-    height : 50px;
-    
+    height: 2.2rem;
 }
 
 .details {
@@ -163,7 +169,7 @@ div.icons ul li {
 }
 
 .discuss {
-    width          : 100%;
+    width          : 75%;
     display        : flex;
     flex-direction : row;
     justify-content: center;
@@ -174,9 +180,28 @@ div.icons ul li {
     width  : 50%;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 568px) {
+    .description p {
+        font-size: 1.7rem;
+    }
+}
 
+@media only screen and (max-width: 800px) {
     .detail {
         width: 98%;
+    }
+
+    .icons-row {
+        max-width: 60%;
+    }
+    .discuss {
+        display       : flex;
+        flex-direction: column;
+        flex-wrap     : wrap;
+        align-items: center;
+    }
+
+    .description {
+        display: flex;
     }
 }
