@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.b6e26e1b.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.49d2616d.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.49d2616d.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.9a2902a7.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.9a2902a7.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.fed61080.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.fed61080.js.map",
     "static/js/2.fcc22a31.chunk.js": "/react-portfolio/static/js/2.fcc22a31.chunk.js",
@@ -20,6 +20,7 @@
     "static/media/favicon.9b5fef2a.ico": "/react-portfolio/static/media/favicon.9b5fef2a.ico",
     "static/media/github.174c6ef7.svg": "/react-portfolio/static/media/github.174c6ef7.svg",
     "static/media/handlebars.4773c399.svg": "/react-portfolio/static/media/handlebars.4773c399.svg",
+    "static/media/handlebars2.2b8fb75a.svg": "/react-portfolio/static/media/handlebars2.2b8fb75a.svg",
     "static/media/heroku.d2e0ad24.svg": "/react-portfolio/static/media/heroku.d2e0ad24.svg",
     "static/media/htmlnew.79d405e8.svg": "/react-portfolio/static/media/htmlnew.79d405e8.svg",
     "static/media/illustrator.f212b9c7.svg": "/react-portfolio/static/media/illustrator.f212b9c7.svg",
@@ -36,6 +37,6 @@
     "static/js/runtime-main.fed61080.js",
     "static/js/2.fcc22a31.chunk.js",
     "static/css/main.b6e26e1b.chunk.css",
-    "static/js/main.49d2616d.chunk.js"
+    "static/js/main.9a2902a7.chunk.js"
   ]
 }
