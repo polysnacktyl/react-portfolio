@@ -20,14 +20,7 @@ class InternshipRevised extends Component {
       <div className='content-container'>
         <div className='outer'>
           <div className='PDFwrapper'>
-            <nav>
-              <button
-                className='prev'
-                disabled={pageNumber <= 1}
-                onClick={this.goToPrevPage}>
-                <i className="fas fa-angle-double-left"></i>
-              </button>
-            </nav>
+
             <div className='PDF' style={{ width: 650 }}>
               <Document
                 file={documentsData[4]}
@@ -36,15 +29,21 @@ class InternshipRevised extends Component {
                 <Page pageNumber={pageNumber} width={650} />
               </Document>
             </div>
-            <nav>
-              <button
-                className='next'
-                disabled={pageNumber >= numPages}
-                onClick={this.goToNextPage}>
-                <i className="fas fa-angle-double-right"></i>
-              </button>
-            </nav>
             <div className='count'>
+              <nav>
+                <button
+                  className='prev'
+                  disabled={pageNumber <= 1}
+                  onClick={this.goToPrevPage}>
+                  <i className="fas fa-angle-double-left"></i>
+                </button>
+                <button
+                  className='next'
+                  disabled={pageNumber >= numPages}
+                  onClick={this.goToNextPage}>
+                  <i className="fas fa-angle-double-right"></i>
+                </button>
+              </nav>
               <p>
                 {pageNumber} of {numPages}
               </p>

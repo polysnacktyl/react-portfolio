@@ -20,14 +20,7 @@ class PythonGuide extends Component {
       <div className='content-container'>
         <div className='outer'>
           <div className='PDFwrapper'>
-            <nav>
-              <button
-                className='prev'
-                disabled={pageNumber <= 1}
-                onClick={this.goToPrevPage}>
-                <i className="fas fa-angle-double-left"></i>
-              </button>
-            </nav>
+
             <div className='PDF' style={{ width: 650 }}>
               <Document
                 file={documentsData[6]}
@@ -36,7 +29,15 @@ class PythonGuide extends Component {
                 <Page pageNumber={pageNumber} width={650} />
               </Document>
             </div>
+
+            <div className='count'>
             <nav>
+              <button
+                className='prev'
+                disabled={pageNumber <= 1}
+                onClick={this.goToPrevPage}>
+                <i className="fas fa-angle-double-left"></i>
+              </button>
               <button
                 className='next'
                 disabled={pageNumber >= numPages}
@@ -44,7 +45,6 @@ class PythonGuide extends Component {
                 <i className="fas fa-angle-double-right"></i>
               </button>
             </nav>
-            <div className='count'>
               <p>
                 {pageNumber} of {numPages}
               </p>

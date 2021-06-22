@@ -11,7 +11,6 @@ import CodeGallery from "./components/Projects/CodeGallery/CodeProjectGallery";
 import CodeProject from './components/Projects/CodeGallery/CodeProject';
 
 import ShowIcons from './pages/Icons/IconCollection';
-
 import Documents from './components/Projects/TechWriteGallery/DocumentGallery';
 import Doc from './components/Projects/TechWriteGallery/Document';
 
@@ -22,7 +21,6 @@ import InformalReport from './components/Projects/TechWriteGallery/Docs/04Inform
 import InternshipRevised from './components/Projects/TechWriteGallery/Docs/05InternshipRevised';
 import EditingProject from './components/Projects/TechWriteGallery/Docs/06EditingProject';
 import PythonGuide from './components/Projects/TechWriteGallery/Docs/07PythonGuide';
-
 
 function App() {
   return (
@@ -44,11 +42,9 @@ function App() {
       <Route exact path='/work/docs/5'><InternshipRevised /></Route>
       <Route exact path='/work/docs/6'><EditingProject /></Route>
       <Route exact path='/work/docs/7'><PythonGuide /></Route>
-      <Route path="/resume" ><Resume /></Route>
-      <Route exact path="/doc"><Doc /></Route>
+      <Route exact path="/resume" ><Resume /></Route>
       <Footer />
     </Router>
-
   );
 }
 
