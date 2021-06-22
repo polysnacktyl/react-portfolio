@@ -9,11 +9,6 @@ import bootstrap from '../icons/bootsvg.svg';
 import handlebars from '../icons/handlebars.svg';
 import SQL from '../icons/sqlsvg.svg';
 import heroku from '../icons/heroku.svg';
-// import linkedin from '../icons/linkedin.svg';
-// import email from '../icons/email.svg';
-// import tester from '../icons/tester.svg';
-// import github from '../icons/github.svg';
-// import illustrator from '../icons/illustrator.svg';
 
 const ProjectsData = [
     {
