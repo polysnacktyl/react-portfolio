@@ -77,7 +77,7 @@ function CodeProject() {
             <Link
                 to='/work/coding'>
                 <div className='back'>
-                    <i className='fas fa-long-arrow-alt-left'></i>
+                    back
                 </div>
             </Link>
         </div>

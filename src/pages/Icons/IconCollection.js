@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './style.css';
 import mongo from '../../assets/icons/mongothicc.svg';
 import reactsvg from '../../assets/icons/react.svg';
@@ -10,7 +11,7 @@ import nodejs from '../../assets/icons/nodejs.svg';
 import bootstrapsvg from '../../assets/icons/bootsvg.svg'
 import github from '../../assets/icons/github.svg';
 import illustrator from '../../assets/icons/illustrator.svg';
-import handlebars from '../../assets/icons/handlebars.svg';
+import handlebars from '../../assets/icons/handlebars2.svg';
 import SQL from '../../assets/icons/sqlsvg.svg';
 import linkedin from '../../assets/icons/linkedin.svg';
 import email from '../../assets/icons/email.svg';
@@ -25,7 +26,7 @@ function ShowIcons() {
 
                     <div className='icon-desc'>
                         <p>I wanted a cohesive set of SVG images to use in the detail view of my web dev projects section. Finding a pre-existing set that included all the icons I wanted and appealed to me aesthetically proved impossible, so I made my own. These were crafted with a combination of Procreate on iPad and Adobe Illustrator.</p>
-                        <p>My favicon is a tiny-fied version of a drawing I made of the Moon. Why the moon? Because it was the roundest image in my sketchbook when I noticed my lack-of-favicon was causing a 404 loading error. And also because I love the moon. </p>
+                        <p>My favicon is a tiny-fied version of a drawing I made of the Moon. Why the moon? Because it was the roundest image in my sketchbook when I noticed my lack-of-favicon was causing a 404 loading error. And also because I'm slightly obsessed with the moon. </p>
                     </div>
                 </div>
                 <div className='svg'>
@@ -57,8 +58,10 @@ function ShowIcons() {
 
 
                 </div>
+                </div>
+                <Link to='/work'><div className='back'>back</div></Link>
             </div>
-        </div>
+
 
     )
 }
