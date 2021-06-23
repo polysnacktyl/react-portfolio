@@ -34,7 +34,7 @@ class Doc extends Component {
             <div className='PDF'>
 
               <Document
-                file={documentsData[2]}
+                file={documentsData[0]}
                 onLoadSuccess={this.onDocumentLoadSuccess}
               >
                 <Page pageNumber={pageNumber} />
@@ -74,4 +74,3 @@ class Doc extends Component {
 };
 
 export default Doc;
-

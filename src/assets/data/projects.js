@@ -6,9 +6,10 @@ import css from '../icons/cssnew.svg';
 import javascript from '../icons/javascript.svg';
 import nodejs from '../icons/nodejs.svg';
 import bootstrap from '../icons/bootsvg.svg';
-import handlebars from '../icons/handlebars.svg';
+import handlebars from '../icons/handlebars2.svg';
 import SQL from '../icons/sqlsvg.svg';
 import heroku from '../icons/heroku.svg';
+import github from '../icons/github.svg';
 
 const ProjectsData = [
     {
@@ -36,15 +37,16 @@ const ProjectsData = [
             ],
         "icons":
             [
-                { "title": "react", "icon": reactsvg },
-                { "title": 'javascript', "icon": javascript },
-                { "title": 'nodeJS', "icon": nodejs },
-                { "title": "mongoDB", "icon": mongo },
-                { "title": "express", "icon": expressnew },
-                { "title": "html", "icon": htmlnew },
-                { "title": 'css', "icon": css },
-                { "title": 'bootstrap', "icon": bootstrap },
-                { "title": 'heroku', "icon": heroku }
+                { "title": "React", "icon": reactsvg },
+                { "title": 'JavaScript', "icon": javascript },
+                { "title": 'NodeJS', "icon": nodejs },
+                { "title": "MongoDB", "icon": mongo },
+                { "title": "Express", "icon": expressnew },
+                { "title": "HTML", "icon": htmlnew },
+                { "title": 'CSS', "icon": css },
+                { "title": 'Bootstrap', "icon": bootstrap },
+                { "title": 'Heroku', "icon": heroku }, 
+                { "title": 'GitHub', "icon": github }
             ]
     },
     {
@@ -72,13 +74,13 @@ const ProjectsData = [
             ],
         "icons":
             [
-                { "title": "javascript", "icon": javascript },
+                { "title": "JavaScript", "icon": javascript },
                 { "title": 'SQL', "icon": SQL },
-                { "title": 'heroku', "icon": heroku },
-                { "title": "express", "icon": expressnew },
-                { "title": "html", "icon": htmlnew },
-                { "title": "css", "icon": css },
-                { "title": "handlebars", "icon": handlebars }, 
+                { "title": 'Heroku', "icon": heroku },
+                { "title": "Express", "icon": expressnew },
+                { "title": "HTML", "icon": htmlnew },
+                { "title": "CSS", "icon": css },
+                { "title": "Handlebars", "icon": handlebars }, 
             ]
     },
     {
@@ -103,11 +105,11 @@ const ProjectsData = [
 
         "icons":
             [
-                { "title": "html", "icon": htmlnew },
-                { "title": 'css', "icon": css },
-                { "title": 'javascript', "icon": javascript },
-                { "title": 'nodejs', "icon": nodejs },
-                { "title": 'bootstrap', "icon": bootstrap }
+                { "title": "HTML", "icon": htmlnew },
+                { "title": 'CSS', "icon": css },
+                { "title": 'JavaScript', "icon": javascript },
+                { "title": 'NodeJS', "icon": nodejs },
+                { "title": 'Bootstrap', "icon": bootstrap }
             ],
     },
     {
@@ -133,11 +135,11 @@ const ProjectsData = [
             ],
         "icons":
             [
-                { "title": "html", "icon": htmlnew },
-                { "title": 'css', "icon": css },
-                { "title": 'javascript', "icon": javascript },
-                { "title": 'nodejs', "icon": nodejs },
-                { "title": 'bootstrap', "icon": bootstrap }
+                { "title": "HTML", "icon": htmlnew },
+                { "title": 'CSS', "icon": css },
+                { "title": 'JavaScript', "icon": javascript },
+                { "title": 'NodeJS', "icon": nodejs },
+                { "title": 'Bootstrap', "icon": bootstrap }
             ],
     },
     {
@@ -163,10 +165,10 @@ const ProjectsData = [
             ],
         "icons":
             [
-                { "title": "html", "icon": htmlnew },
-                { "title": 'css', "icon": css },
-                { "title": 'javascript', "icon": javascript },
-                { "title": 'nodejs', "icon": nodejs },
+                { "title": "HTML", "icon": htmlnew },
+                { "title": 'CSS', "icon": css },
+                { "title": 'JavaScript', "icon": javascript },
+                { "title": 'NodeJS', "icon": nodejs },
             ],
     }
 ]

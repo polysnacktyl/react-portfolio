@@ -12,7 +12,6 @@ import CodeProject from './components/Projects/CodeGallery/CodeProject';
 
 import ShowIcons from './pages/Icons/IconCollection';
 import Documents from './components/Projects/TechWriteGallery/DocumentGallery';
-import Doc from './components/Projects/TechWriteGallery/Document';
 
 import ResPDF from './components/Projects/TechWriteGallery/Docs/01Resume';
 import GrantProposal from './components/Projects/TechWriteGallery/Docs/02GrantProposal';
@@ -21,7 +20,6 @@ import InformalReport from './components/Projects/TechWriteGallery/Docs/04Inform
 import InternshipRevised from './components/Projects/TechWriteGallery/Docs/05InternshipRevised';
 import EditingProject from './components/Projects/TechWriteGallery/Docs/06EditingProject';
 import PythonGuide from './components/Projects/TechWriteGallery/Docs/07PythonGuide';
-
 function App() {
   return (
     <Router>
@@ -34,7 +32,6 @@ function App() {
       <Route exact path="/work/coding/:projectID"><CodeProject /></Route>
       <Route exact path="/work/docs"><Documents /></Route>
       <Route exact path="/work/design"><ShowIcons /></Route>
-      <Route exact path="/work/docs/portfolio"><Doc /></Route>
       <Route exact path='/work/docs/1'><ResPDF /></Route>
       <Route exact path='/work/docs/2'><GrantProposal /></Route>
       <Route exact path='/work/docs/3'><RepairGuide /></Route>
