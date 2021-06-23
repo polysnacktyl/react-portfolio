@@ -3,7 +3,7 @@ import "./style.css"
 
 function Footer() {
   return (
-    <footer >
+    <footer>
       <div className="footer--pin">
         <hr></hr>
           <ul>

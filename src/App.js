@@ -43,8 +43,10 @@ function App() {
       <Route exact path='/work/docs/6'><EditingProject /></Route>
       <Route exact path='/work/docs/7'><PythonGuide /></Route>
       <Route exact path="/resume" ><Resume /></Route>
-      <Footer />
+      <Footer/>
     </Router>
+
+
   );
 }
 

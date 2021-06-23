@@ -1,23 +1,5 @@
 .content-container {
-  min-height: calc(100vh - 250px);
-}
-
-footer,
-footer ul {
-  display        : inline-flex !important;
-  width          : 100%;
-  flex-direction : row;
-  flex-wrap      : wrap;
-  justify-content: center;
-}
-
-.footer--pin {
-  display       : flex;
-  flex-direction: row;
-  flex-wrap     : wrap;
-  position      : relative;
-  left          : 0;
-  bottom        : 0;
+  min-height: calc(100vh - 100px);
 }
 
 * {
@@ -66,7 +48,7 @@ a:hover {
   .content-container {
     display    : flex;
     align-items: center;
-    min-height : calc(100vh - 190px) !important;
+    min-height : calc(100vh - 8rem) !important;
 
   }
 
@@ -76,8 +58,7 @@ a:hover {
   .content-container {
     display    : flex;
     align-items: center;
-    min-height : calc(100vh - 180px) !important;
-
+    min-height : calc(100vh - 13rem) !important;
   }
 
 }
@@ -86,7 +67,7 @@ a:hover {
   .content-container {
     display    : flex;
     align-items: center;
-    min-height : calc(100vh - 400px) !important;
+    min-height : calc(100vh - 30rem) !important;
 
   }
 

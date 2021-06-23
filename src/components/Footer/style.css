@@ -1,51 +1,41 @@
-footer ul li,
-footer ul li a,
-footer ul li p {
-    display        : flex;
+.footer--pin {
+    display        : inline-flex;
     flex-direction : row;
     flex-wrap      : wrap;
-    justify-items  : center;
-    list-style-type: none;
-    padding-left   : 17px;
-    padding-right  : 17px;
-    font-size      : 1.5rem;
-    font-weight    : normal;
-    align-items    : center;
+    width          : 100%;
+    justify-content: center;
+    position       : relative;
+    left           : 0;
+    bottom         : 0;
+}
+
+.footer--pin ul {
+    display       : inline-flex;
+    flex-direction: row;
+    align-content : flex-end;
+}
+
+.footer--pin li,
+.footer--pin li a {
+    display       : inline-flex;
+    flex-direction: row;
+    flex-wrap     : nowrap;
+    align-items   : baseline;
+    font-weight   : normal !important;
+    font-size     : 1.5rem !important;
 }
 
 .fas {
-    padding-left : 3px;
-    padding-right: 3px;
-}
-
-.footer--pin {
-    display        : flex;
-    flex-direction : row;
-    flex-wrap      : wrap;
-    justify-content: center;
-    justify-items  : center;
-    align-items    : center;
-    color          : white;
-    margin-top     : 2%;
-    padding-bottom : 1%;
-    width          : 100%;
+    padding-left : 7px;
+    padding-right: 7px;
 }
 
 @media (max-width: 568px) {
 
     .footer--pin,
-    footer ul,
-    footer li,
-    footer a {
-        display        : flex !important;
-        flex-direction : row !important;
-        flex-wrap      : wrap !important;
-        justify-items  : center;
-        justify-content: center;
-        align-items    : center;
-        font-size      : 1.7rem !important;
-        padding        : 0;
-        width          : 90%;
+    .footer--pin ul {
+        display       : flex;
+        flex-direction: column;
+        padding: 0;
     }
-
 }

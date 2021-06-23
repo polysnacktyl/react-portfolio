@@ -1,9 +1,14 @@
+.pdf-content-container { 
+    height: 100vh;
+}
+
 .PDFwrapper {
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;   
+    position: inherit;
 }
 
 .PDF {
@@ -30,7 +35,7 @@
     display: flex;
     flex-direction: column;
     width: 33rem !important;
-    height: auto !important;
+    height: 43rem !important;
     border-radius: 20px;
 }
 
