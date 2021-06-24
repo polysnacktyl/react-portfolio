@@ -45,7 +45,7 @@ const ProjectsData = [
                 { "title": "HTML", "icon": htmlnew },
                 { "title": 'CSS', "icon": css },
                 { "title": 'Bootstrap', "icon": bootstrap },
-                { "title": 'Heroku', "icon": heroku }, 
+                { "title": 'Heroku', "icon": heroku },
                 { "title": 'GitHub', "icon": github }
             ]
     },
@@ -80,36 +80,38 @@ const ProjectsData = [
                 { "title": "Express", "icon": expressnew },
                 { "title": "HTML", "icon": htmlnew },
                 { "title": "CSS", "icon": css },
-                { "title": "Handlebars", "icon": handlebars }, 
+                { "title": "Handlebars", "icon": handlebars },
             ]
     },
     {
         "id": 3,
-        "title": "HTML Generator",
-        "image": "https://raw.githubusercontent.com/polysnacktyl/react-portfolio/main/src/assets/images/profileGen.png",
+        "title": "Budget Tracker PWA",
+        "image": "https://raw.githubusercontent.com/polysnacktyl/react-portfolio/main/src/assets/images/budget.png",
         "alt": "screenshot",
         "url":
             [
-                { "title": "see the code", "link": "https://github.com/polysnacktyl/team-profile-generator" }
+                { "title": "launch the app", "link": "https://sheltered-river-46144.herokuapp.com/" },
+                { "title": "see the code", "link": "https://github.com/polysnacktyl/budget" }
             ],
         "summaryTitle": "Project",
         "summary":
             [
-                { "paragraph": "This is a command line interface application that employs the popular Inquire package to collect information from a user, plug it into an HTML template, and create a .html file ready to view in the browser and add to any project. In this case, the file produced is a collection of mini profiles for hypothetical employee information including website and email links that open in new windows." }
+                { "paragraph": "This budget tracker allows users to track positive and negative total transactions with their personal budgets which are stored in and retrieved from a Mongo Atlas database. The tracker is also a progressive web app which can be installed on the user's device. Utilizing IndexDB and the browser cache, offline transactions are stored on the client side and sent to the database when a new connection is detected." }
             ],
         "challengesTitle": "Challenges",
         "challenges":
             [
-                { "paragraph": "This project happened rather early on in my boot camp program when I was still struggling most with front end matters, so my main challenge here was nailing the div structure and understanding how flex properties relate to each other. Additionally, the project required MVC design and testing, the latter of which I still am working toward fully understanding." }
+                { "paragraph": "The most challenging thing about this project was, as usual, the most valuable. The bulk of the effort spent on this project was simply diving into someone else's code, understanding how its structure, identifying the code that was missing and where it should be inserted." }
             ],
 
         "icons":
             [
-                { "title": "HTML", "icon": htmlnew },
-                { "title": 'CSS', "icon": css },
                 { "title": 'JavaScript', "icon": javascript },
                 { "title": 'NodeJS', "icon": nodejs },
-                { "title": 'Bootstrap', "icon": bootstrap }
+                { "title": 'Express', "icon": expressnew },
+                { "title": 'MongoDB', "icon": mongo },
+                { "title": 'CSS', "icon": css },
+                { "title": "HTML", "icon": htmlnew }
             ],
     },
     {
@@ -173,3 +175,34 @@ const ProjectsData = [
     }
 ]
 export default ProjectsData;
+
+
+// {
+//     "id": 3,
+//     "title": "HTML Generator",
+//     "image": "https://raw.githubusercontent.com/polysnacktyl/react-portfolio/main/src/assets/images/profileGen.png",
+//     "alt": "screenshot",
+//     "url":
+//         [
+//             { "title": "see the code", "link": "https://github.com/polysnacktyl/team-profile-generator" }
+//         ],
+//     "summaryTitle": "Project",
+//     "summary":
+//         [
+//             { "paragraph": "This is a command line interface application that employs the popular Inquire package to collect information from a user, plug it into an HTML template, and create a .html file ready to view in the browser and add to any project. In this case, the file produced is a collection of mini profiles for hypothetical employee information including website and email links that open in new windows." }
+//         ],
+//     "challengesTitle": "Challenges",
+//     "challenges":
+//         [
+//             { "paragraph": "This project happened rather early on in my boot camp program when I was still struggling most with front end matters, so my main challenge here was nailing the div structure and understanding how flex properties relate to each other. Additionally, the project required MVC design and testing, the latter of which I still am working toward fully understanding." }
+//         ],
+
+//     "icons":
+//         [
+//             { "title": "HTML", "icon": htmlnew },
+//             { "title": 'CSS', "icon": css },
+//             { "title": 'JavaScript', "icon": javascript },
+//             { "title": 'NodeJS', "icon": nodejs },
+//             { "title": 'Bootstrap', "icon": bootstrap }
+//         ],
+// },
