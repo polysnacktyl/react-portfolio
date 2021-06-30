@@ -1,51 +1,42 @@
-import React, { Component } from "react";
+import React from "react";
 import { Link } from 'react-router-dom';
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
-import documentsData from '../../../assets/data/documents.js';
-import './style.css';
 
+class Doc extends React.Component {
 
-class Doc extends Component {
-
-
-  state = { numPages: null, pageNumber: 1 };
+  state = { numPages: null, pageNumber: 1, fileURL: this.props.data.state.file }
 
   onDocumentLoadSuccess = ({ numPages }) => {
-    this.setState({ numPages });
-  };
+    this.setState({ numPages })
+  }
 
   goToPrevPage = () =>
-    this.setState(state => ({ pageNumber: state.pageNumber - 1 }));
+    this.setState(state => ({ pageNumber: state.pageNumber - 1 }))
 
   goToNextPage = () =>
-    this.setState(state => ({ pageNumber: state.pageNumber + 1 }));
+    this.setState(state => ({ pageNumber: state.pageNumber + 1 }))
 
 
-  render() {
+  render(props) {
 
     const { pageNumber, numPages } = this.state;
-
-
+    const fileURL = this.props.data.state.file;
     return (
       <div className='content-container'>
         <div className='outer'>
           <div className='PDFwrapper'>
-
             <div className='PDF'>
-
               <Document
-                file={documentsData[0]}
-                onLoadSuccess={this.onDocumentLoadSuccess}
-              >
+                file={fileURL}
+                onLoadSuccess={this.onDocumentLoadSuccess}>
                 <Page pageNumber={pageNumber} />
               </Document>
-
             </div>
 
 
           </div>
           <div className='count'>
-          <nav>
+            <nav>
               <button
                 className='prev'
                 disabled={pageNumber <= 1}
@@ -67,10 +58,16 @@ class Doc extends Component {
 
           </div>
         </div>
-        <Link to='/work'><div className='back'>back</div></Link>
-      </div>
+        <Link to='/work/docs'><div className='back'>back</div></Link>
+      </div >
+
+
     );
+
+
   }
+
+
 };
 
 export default Doc;
