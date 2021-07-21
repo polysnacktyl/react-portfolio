@@ -16,6 +16,9 @@ function Navbar() {
       <NavLink activeClassName="active" to="/work">
         work
       </NavLink>
+      <NavLink activeClassName="active" to="/blog">
+        blog
+      </NavLink>
       <NavLink activeClassName="active" to="/resume">
         resumé
       </NavLink>

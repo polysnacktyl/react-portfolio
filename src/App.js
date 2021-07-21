@@ -5,6 +5,7 @@ import Store from './utils/Store';
 import Navbar from "./components/Navbar/index";
 import Home from "./pages/Home/Home";
 import About from './pages/About/About';
+import Blog from './components/Blog/Blog';
 import Footer from "./components/Footer/index";
 import Resume from "./pages/Resume/Resume";
 import ChooseGallery from './pages/Projects/projNav';
@@ -15,6 +16,8 @@ import DocContainer from './components/Projects/TechWriteGallery/DocContainer';
 import ShowIcons from './pages/Icons/IconCollection';
 
 function App() {
+
+
   return (
     <Store>
       <Router>
@@ -22,6 +25,9 @@ function App() {
         <Route exact path={"/"}><Home /></Route>
         <Route path={"/home"}><Home /></Route>
         <Route path="/about"><About /></Route>
+
+        <Route exact path='/blog'><Blog /></Route>
+
         <Route exact path="/work"><ChooseGallery /></Route>
         <Route exact path='/work/coding'><CodeGallery /></Route>
         <Route exact path="/work/coding/:projectID"><CodeProject /></Route>

@@ -1,0 +1,19 @@
+.post-container h5 {
+    margin-top: 10px;
+}
+
+.preview {
+    text-align: center;
+}
+
+.blog-div {
+    display       : flex;
+    flex-direction: column;
+    align-content : center;
+    color         : black;
+}
+
+.preview-title {
+    font-size: 1.7rem;
+    margin   : 20px;
+}
