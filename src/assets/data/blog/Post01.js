@@ -75,6 +75,7 @@ function Post01() {
             <div>
                 With images securely uploading, I've moved on to implementing a system for managing users—-another crucial unit of functionality for my vision of this app’s final form. I initially set it up with Auth0, a serviced I’d implemented on another project, but decided to try and do it myself from more-or-less-scratch. Presently, I’ve managed to set up user registration/login/etc and auth protected routes with JWT and cookies. The refactored upload function routes through the same auth-routes I set up for users, in anticipation of establishing the links between users and their content. However, achieving a persistent state for logged in users has been an elusive goal. I’ve managed it with local storage, but reading around, it seems like another somewhat vulnerable front end practice. From here, I'll be focusing on more effective state management alongside user-related authentication and security.
             </div>
+            <div className='date'>07/22/2021</div>
         </div>
 
     )
