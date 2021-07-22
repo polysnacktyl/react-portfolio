@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.14a3c0b4.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.c07f4073.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.c07f4073.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.69312718.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.8f886313.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.8f886313.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.fed61080.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.fed61080.js.map",
     "static/js/2.6bee2877.chunk.js": "/react-portfolio/static/js/2.6bee2877.chunk.js",
     "static/js/2.6bee2877.chunk.js.map": "/react-portfolio/static/js/2.6bee2877.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "static/css/main.14a3c0b4.chunk.css.map": "/react-portfolio/static/css/main.14a3c0b4.chunk.css.map",
+    "static/css/main.69312718.chunk.css.map": "/react-portfolio/static/css/main.69312718.chunk.css.map",
     "static/js/2.6bee2877.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.6bee2877.chunk.js.LICENSE.txt",
     "static/js/pdf.worker.entry.3e63f364.worker.js": "/react-portfolio/static/js/pdf.worker.entry.3e63f364.worker.js",
     "static/js/pdf.worker.entry.3e63f364.worker.js.LICENSE.txt": "/react-portfolio/static/js/pdf.worker.entry.3e63f364.worker.js.LICENSE.txt",
@@ -32,15 +32,15 @@
     "static/media/nodejs.9563f140.svg": "/react-portfolio/static/media/nodejs.9563f140.svg",
     "static/media/p01-back.07e8c5b4.png": "/react-portfolio/static/media/p01-back.07e8c5b4.png",
     "static/media/p01-front.ce4d5274.png": "/react-portfolio/static/media/p01-front.ce4d5274.png",
-    "static/media/p01-oopsallsecrets.0f31af16.png": "/react-portfolio/static/media/p01-oopsallsecrets.0f31af16.png",
-    "static/media/p01-process.b71a4c7d.png": "/react-portfolio/static/media/p01-process.b71a4c7d.png",
+    "static/media/p01-oopsallsecrets.5709decb.png": "/react-portfolio/static/media/p01-oopsallsecrets.5709decb.png",
+    "static/media/p01-process.9306a29b.png": "/react-portfolio/static/media/p01-process.9306a29b.png",
     "static/media/react.2deda2c0.svg": "/react-portfolio/static/media/react.2deda2c0.svg",
     "static/media/sqlsvg.ef93f140.svg": "/react-portfolio/static/media/sqlsvg.ef93f140.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.fed61080.js",
     "static/js/2.6bee2877.chunk.js",
-    "static/css/main.14a3c0b4.chunk.css",
-    "static/js/main.c07f4073.chunk.js"
+    "static/css/main.69312718.chunk.css",
+    "static/js/main.8f886313.chunk.js"
   ]
 }
