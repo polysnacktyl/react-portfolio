@@ -17,3 +17,60 @@
     font-size: 1.7rem;
     margin   : 20px;
 }
+
+.logos {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    margin-bottom : 25px;
+}
+
+.img svg {
+    fill: black;
+}
+
+.section-title {
+    text-align: center;
+    font-size : 1.3rem;
+    margin-top: 30px;
+}
+
+.upload-process {
+    display    : flex;
+    align-items: flex-start;
+    margin: 5px;
+}
+
+.before-and-after,
+.before-and-after p {
+    display        : flex;
+    flex-direction : row;
+    flex-wrap      : wrap;
+    justify-content: center;
+    align-items    : baseline;
+    font-size      : .7rem;
+}
+
+.before-and-after img {
+    height       : 380px;
+    margin       : 20px 20px 0px 20px;
+    border-radius: 15px;
+}
+
+.refactored,
+.refactored p {
+    display        : flex;
+    flex-direction : row;
+    flex-wrap      : wrap;
+    justify-content: center;
+    align-items    : baseline;
+    font-size      : .7rem;
+}
+
+.front img, 
+.back img {
+    height       : 17rem;
+    margin       : 20px 20px 0px 20px;
+    border-radius: 15px;
+}
+
