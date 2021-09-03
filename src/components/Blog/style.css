@@ -14,14 +14,11 @@
 .the-whole-enchibloga {
     display        : flex;
     flex-direction : row;
-    flex-wrap      : wrap;
+    flex-wrap      : nowrap;
     width          : 96vw;
     height         : 84vh;
     justify-content: space-evenly;
     align-items    : flex-start;
-    
-    
-    
 }
 
 .list-return {
@@ -29,15 +26,16 @@
     flex-direction: column;
     flex-wrap     : wrap;
     height        : 78vh;
-    margin-top       : 20px;
+    width         : 15vw;
+    margin-top    : 20px;
+    
+    
 }
 
 .list {
     display       : flex;
     flex-direction: row;
     flex-wrap     : wrap;
-
-
 }
 
 .post-container {
@@ -64,3 +62,13 @@ button:hover {
     margin: 10px;
 }
 
+.sidebar li {
+    padding: 10px;
+}
+
+.sidebar {
+    display        : flex;
+    flex-direction : row;
+    justify-content: flex-start;
+    flex-wrap      : nowrap;
+}

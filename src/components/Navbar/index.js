@@ -6,6 +6,9 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="links">
+      {/* <NavLink exact activeClassName='active' to="/newblog/post/:id">
+        newblug
+      </NavLink> */}
 
       <NavLink exact activeClassName="active" to="/">
         home
@@ -16,7 +19,7 @@ function Navbar() {
       <NavLink activeClassName="active" to="/work">
         work
       </NavLink>
-      <NavLink activeClassName="active" to="/blog">
+      <NavLink activeClassName="active" to="/blog/0">
         blog
       </NavLink>
       <NavLink activeClassName="active" to="/resume">
